@@ -1,17 +1,52 @@
 $(document).ready(function () {
+   
+   $(".dropdown-content>li>a").hover(function () {
+        $(this).css("background-color", "#3949ab");
+    }, function () {
+        $(this).css("background-color", "#424242 ");
+    })
+
+    $('.modal').modal(); 
+    $(".modal-trigger").css("background-color" ,"green")
+
 
     $("#infos,#competences,#archive").hide();
-    
+
+    $("#sub_form").click(function () {
+        M.toast({ html: '<b>Envoies-moi plutôt un e-mail ;)</b>', classes: 'white red-text' })
+        myToast.cancel();
+    })
+
+    $(".mdr").click(function () {
+        M.toast({ html: '<b>Si tu veux en savoir plus, contactes-moi par e-mail !</b>', classes: 'white red-text' })
+        myToast.cancel();
+    })
+
 
     $("#friend").click(function () {
         M.toast({ html: '<b>C\'est mon cv, pas mon facebook !</b>', classes: 'white red-text' })
         myToast.cancel();
     })
 
+    $(".com").click(function () {
+        M.toast({ html: '<b>N\'hésites pas à m\'envoyer tes commentaires par e-mail ! </b>', classes: 'white red-text' })
+        myToast.cancel();
+    })
+
+    $(".love").click(function () {
+        M.toast({ html: '<b>N\'hésites pas à me suivre sur linkedin !</b>', classes: 'white red-text' })
+        myToast.cancel();
+    })
+
+    $(".share").click(function () {
+        M.toast({ html: '<b>N\'hésites pas à partager mon profil !</b>', classes: 'white red-text' })
+        myToast.cancel();
+    })
+
+
     $("#journal").click(function () {
         $("main").show();
         $("#infos,#competences").hide();
-        M.toast({ html: '<b>Défiles pour lire mon journal !</b>', classes: 'white red-text' })
     })
 
 

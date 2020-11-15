@@ -42,6 +42,8 @@
     .ul2 {
         flex: 1 1 auto;
         margin-left: 5px;
+        justify-content: space-between;
+       
        
     }
     .img2 {
@@ -89,7 +91,14 @@
     #search {
         margin-top: 20px;
     }
-
+    .btnotif {
+        border: 2px solid white;
+        border-radius: 10px;
+       
+    } 
+    .btntitle{
+        height:50px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -179,7 +188,11 @@
     #search {
         margin-top: 20px;
     }
-    
+    .btnotif {
+        border: 2px solid white;
+        border-radius: 10px;
+    } 
+   
 }
 
 @media screen and (max-width: 767px) {
