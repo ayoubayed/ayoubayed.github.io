@@ -13,7 +13,7 @@ $(document).ready(function () {
     $("#infos,#competences,#archive").hide();
 
     $("#sub_form").click(function () {
-        M.toast({ html: '<b>Envoies-moi plutôt un e-mail ;)</b>', classes: 'white red-text' })
+        M.toast({ html: '<b>Envoie-moi plutôt un e-mail ;)</b>', classes: 'white red-text' })
         myToast.cancel();
     })
 
@@ -29,17 +29,17 @@ $(document).ready(function () {
     })
 
     $(".com").click(function () {
-        M.toast({ html: '<b>N\'hésites pas à m\'envoyer tes commentaires par e-mail ! </b>', classes: 'white red-text' })
+        M.toast({ html: '<b>N\'hésite pas à m\'envoyer tes commentaires par e-mail ! </b>', classes: 'white red-text' })
         myToast.cancel();
     })
 
     $(".love").click(function () {
-        M.toast({ html: '<b>N\'hésites pas à me suivre sur linkedin !</b>', classes: 'white red-text' })
+        M.toast({ html: '<b>N\'hésite pas à me suivre sur linkedin !</b>', classes: 'white red-text' })
         myToast.cancel();
     })
 
     $(".share").click(function () {
-        M.toast({ html: '<b>N\'hésites pas à partager mon profil !</b>', classes: 'white red-text' })
+        M.toast({ html: '<b>N\'hésite pas à partager mon profil !</b>', classes: 'white red-text' })
         myToast.cancel();
     })
 
