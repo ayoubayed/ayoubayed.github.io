@@ -1,599 +1,950 @@
-
 <!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-        <meta name="description" content="CV développeur Web : création et développement de sites et d'applications Web. HTML5, CSS3, JQuery, Bootstrap, PHP, Angular,..." />
-        <meta name="Keywords" content="Yoann Beaugrand, développeur, développeur web, web, CV, site CV, site, application, application web, html5, css3, jquery, php, angular" />
-        <meta name="robots" content="index,follow,all"/>
-        <meta name="author" content="Yoann Beaugrand"/>
-        <meta name="google-site-verification" content="" />
-        <link rel="icon" href="public/img/logo.png">
-        <title>CV développeur web - Yoann Beaugrand</title>
-        <link href="public/css/fontawesome/css/all.css" rel="stylesheet">
-        <link href="public/js/bootstrap-4.5.2/css/bootstrap.min.css" rel="stylesheet">
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-        <link href="public/css/style.min.css" rel="stylesheet">
-        <script src="public/js/jquery-3.3.1.min.js"></script>
-        <script src="public/js/bootstrap-4.5.2/js/bootstrap.min.js"></script>
-        <script src="public/js/script.min.js"></script>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65854192-2"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		  gtag('config', 'UA-65854192-2');
-		</script>
-    </head>     
+<html lang="en">
 
-    <body class="clearfix">
-        <div id="top-content"></div>
-        <header id="section-header" class="section-header mb-30 clearfix">
-            <nav id="navbar-main" class="navbar navbar-expand-xl navbar-dark bg-dark navbar-main">
-                <a class="navbar-brand" href="#section-header">
-                    <h2>
-                        Ayoub Bayed                        <small class="text-muted">- Développeur Web/Mobile</small>
-                    </h2>      
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button> 
-                <div id="navbar" class="collapse navbar-collapse justify-content-end">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#accueil">
-                                Accueil                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#competences">
-                                Compétences                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#diplomes">
-                                Diplômes                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">
-                                Portfolio                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#experience">
-                                </img>Expérience                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#loisirs">
-                                </img>Loisirs                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">
-                                </img>Contact                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>   
-            <nav id="navbar-second" class="navbar navbar-expand-xl navbar-dark bg-dark navbar-main fixed-top">
-                <a class="navbar-brand" href="#section-header">
-                    <h2>
-                        Ayoub Bayed                        <small class="text-muted">- Développeur Web/Mobile</small>
-                    </h2>      
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar2" aria-controls="navbar2" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div id="navbar2" class="collapse navbar-collapse justify-content-end">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#accueil">
-                                Accueil                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#competences">
-                                Compétences                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#diplomes">
-                                Diplômes                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">
-                                Portfolio                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#experience">
-                                </img>Expérience                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#loisirs">
-                                </img>Loisirs                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">
-                                </img>Contact                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>     
-        </header>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="public/css/style.css" rel="stylesheet">
+  
+  <script src="./public/js/jquery/jquery.js"></script>
+  <script src="./public/js/script.js"></script>
+  <title>Ayoub Bayed</title>
+</head>
 
-        <section id="accueil" class="section-main mb-30 clearfix">
-            <div class="main">
-                <div class="item">
-                    <div class="row">
-                        <div class="col-12 col-lg-6 col-md-6 col-sm-6">
-                            <div class="item-child-left left-align">
-                                <h2 class="hi">Bonjour,</h2>
-                                <p class="name">Je suis Ayoub</p>
-                                <small class="position mb-30">&amp; je travaille dans le monde du web</small>
-                                <a href="public/img/CV-yoann-beaugrand.pdf" class="custom-btn-lg">
-                                    <i class="fa fa-file-download" aria-hidden="true"></i> Télécharger mon CV                                </a>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6 col-md-6 col-sm-6 hexagon-right">
-                            <div class="hexagon">
-                                <div class="hexTop"></div>
-                                <div class="hexBottom"></div>
-                                <a href="#contact" class="custom-btn-rd">
-                                    <i class="fa fa-comment-dots" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>                   
-            </div>
-        </section>
-
-        <section id="competences" class="competence-section cadre mb-30 clearfix">
-            <div class="section-titre">
-                <h2>
-                    <i class="fa fa-code" aria-hidden="true"></i>
-                    Compétences                </h2>
-                <p>
-                    Ayant une formation Web, je possède une base solide en Html / Css / Php / Js/ Sql / MariaDb, suite à mes études j'ai appris à utiliser différents frameworks comme Viewjs, React, Flutter.                 </p>
-            </div>
-            <div class="competences">
-                <div id="competencesTechnique">
-                    <h2 class="titre">Compétences professionnelles</h2>
-                    <div class="skill_progress">
-                        <div class="row">
-                            <div class="col-12 col-lg-6 col-md-6 col-sm-12">
-                                <div class="competence-unique">
-                                    <div class="competence-titre">Html5</div>
-                                    <div class="progress">
-                                        <div class="progress-bar red-bg" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                            <span class="red-color">90%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="competence-unique">
-                                    <div class="competence-titre">Jquery</div>
-                                    <div class="progress">
-                                        <div class="progress-bar yellow-bg" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                            <span class="yellow-color">75%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="competence-unique">
-                                    <div class="competence-titre">Android</div>
-                                    <div class="progress">
-                                        <div class="progress-bar green-bg" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
-                                            <span class="green-color">45%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="competence-unique m-0">
-                                    <div class="competence-titre">MySQL</div>
-                                    <div class="progress">
-                                        <div class="progress-bar darkblue-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                                            <span class="darkblue-color">80%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-6 col-md-6 col-sm-12">
-                                <div class="competence-unique">
-                                    <div class="competence-titre">Css3</div>
-                                    <div class="progress">
-                                        <div class="progress-bar blue-bg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                                            <span class="blue-color">80%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="competence-unique">
-                                    <div class="competence-titre">PHP</div>
-                                    <div class="progress">
-                                        <div class="progress-bar darkblue-bg" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                            <span class="darkblue-color">75%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="competence-unique">
-                                    <div class="competence-titre">Angular</div>
-                                    <div class="progress">
-                                        <div class="progress-bar red-bg" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                                            <span class="red-color">65%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="competence-unique m-0">
-                                    <div class="competence-titre">Photoshop</div>
-                                    <div class="progress">
-                                        <div class="progress-bar yellow-bg" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                                            <span class="yellow-color">50%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="languages-skills">
-                <div class="row">
-                    <div class="col-12 col-lg-6 col-md-12">
-                        <div class="lang-skill-left">
-                            <h2 class="titre mb-30">Langues</h2>
-                            <p class="mb-30">Le Français et l'Arabe sont mes langues maternelles. Un bon niveau en anglais et des notions en espagnol.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-3 col-md-6 col-sm-6 stage_box">
-                        <div id="Stage_box1">
-                            <div id="Stage_box1_svg_container" class="stage_box_container">
-                                <svg version="1.1" id="chart0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
-                                    <defs>
-                                        <linearGradient id="lg0" x1="0%" y1="0%" x2="100%" y2="100%" spreadMethod="pad">    
-                                            <stop offset="0%" stop-color="#3081b9" stop-opacity="1"></stop>    
-                                            <stop offset="100%" stop-color="#49dbe8" stop-opacity="1"></stop>
-                                        </linearGradient>
-                                    </defs>
-                                    <g class="svg_g">   
-                                        <path class="full_donut" d="M 150, 150 m -80, 0 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0 Z" stroke-linecap="butt" stroke-width="26px" fill="none" stroke="#ebf3f8"></path>   
-                                        <path class="ani_donut" d="M 150, 150 m -80, 0 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0 Z" stroke-linecap="butt" stroke-width="26px" fill="none" stroke="url(#lg0)"></path>
-                                    </g>
-                                </svg>
-                            </div>
-                            <div id="Stage_box1_Ellipse" class="stage_box_ellipse"></div>
-                            <div id="Stage_box1_number" class="stage_box1_number">
-                                <span class="number">
-                                    <strong>Français</strong>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-3 col-md-6 col-sm-6 stage_box">
-                        <div id="Stage_box2">
-                            <div id="Stage_box2_svg_container" class="stage_box_container">
-                                <svg version="1.1" id="chart1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
-                                    <defs>
-                                        <linearGradient id="lg1" x1="0%" y1="0%" x2="100%" y2="100%" spreadMethod="pad">    
-                                            <stop offset="0%" stop-color="#0ea800" stop-opacity="1"></stop>    
-                                            <stop offset="100%" stop-color="#61df1b" stop-opacity="1"></stop>
-                                        </linearGradient>
-                                    </defs>
-                                    <g class="svg_g">   
-                                        <path class="full_donut" d="M 150, 150 m -80, 0 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0 Z" stroke-linecap="butt" stroke-width="26px" fill="none" stroke="#ebf3f8"></path>   
-                                        <path class="ani_donut" d="M 150, 150 m -80, 0 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0 Z" stroke-linecap="butt" stroke-width="26px" fill="none" stroke="url(#lg1)"></path>
-                                    </g>
-                                </svg>
-                            </div>
-                            <div id="Stage_box2_Ellipse" class="stage_box_ellipse"></div>
-                            <div id="Stage_box2_number" class="stage_box2_number">
-                                <span class="number">
-                                    <strong>Anglais<br/><span class="text-muted">TOEIC 765</span></strong>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="diplomes" class="education-section cadre mb-30 clearfix" >
-            <div class="section-titre">
-                <h2>
-                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                    Diplômes                </h2>
-                <p>
-                                    </p>
-            </div>
-            <div class="accordion" id="accordionSolution">
-                <div class="collapsible-header acco-clr1 active" id="heading_ventes" data-toggle="collapse" data-target="#collapse_ventes" aria-expanded="true" aria-controls="collapse_ventes">
-                    <span class="icon">
-                        <i class="fa fa-pencil-alt" aria-hidden="true"></i>
-                    </span>
-                    <p>
-                        <strong>CSI Bac +3</strong> - ORT Sup’ Lyon - Lyon 69008 Octobre 2013 à Septembre 2014                    </p>
-                </div>
-                <div id="collapse_ventes" class="collapse show " aria-labelledby="heading_ventes" data-parent="#accordionSolution">
-                    <div class="accordion-body">
-                        <span>Concepteur de Système d'Information - Titre RNCP niv II - Réseau 3IL, formation de niveau bac+3 qui prépare aux métiers de concepteur / développeur informatique, d'administrateur systèmes et réseaux ou d'informaticien.</span>
-                    </div>
-                </div>
-                <div class="collapsible-header acco-clr2" id="heading_etudes" data-toggle="collapse" data-target="#collapse_etudes" aria-expanded="true" aria-controls="collapse_etudes">
-                    <span class="icon">
-                        <i class="fa fa-pencil-alt" aria-hidden="true"></i>
-                    </span>
-                    <p>
-                        <strong>BTS IRIS</strong> - ORT Sup’ Lyon – Lyon 69008 Septembre 2011 à Juillet 2013                    </p>
-                </div>
-                <div id="collapse_etudes" class="collapse" aria-labelledby="heading_etudes" data-parent="#accordionSolution">
-                    <div class="accordion-body">
-                        <span>Brevet de Technicien Supérieur en Informatique et Réseaux pour l'Industrie et les Services techniques. Cette formation développe et exploite des applications et des systèmes informatiques, destinés aux procédés de productions de biens d’équipement et de services techniques.</span>
-                    </div>
-                </div>
+<body>
+  <div class="container" x-data="{ rightSide: false, leftSide: false }">
+    <div class="left-side" :class="{'active' : leftSide}">
+      <div class="left-side-button" @click="leftSide = !leftSide">
+        <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+          viewBox="0 0 24 24">
+          <path d="M19 12H5M12 19l-7-7 7-7" />
+        </svg>
+      </div>
+      <div class="logo">BUREAU</div>
+      <div class="side-wrapper">
+        <div class="side-title">MENU</div>
+        <div class="side-menu">
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+              <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+              <path d="M9 22V12h6v10" />
+            </svg>
+            Accueil
+          </a>
+          <a href="#">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              viewBox="0 0 24 24">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+            </svg>
+            Derniers événements
+          </a>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            Explorer
+          </a>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+              <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+              <path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" />
+            </svg>
+            Fichiers
+          </a>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+              <circle cx="8.5" cy="8.5" r="1.5" />
+              <path d="M21 15l-5-5L5 21" />
+            </svg>
+            Gallerie
+          </a>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+              <path d="M16 2v4M8 2v4M3 10h18" />
+            </svg>
+            Evénements
+          </a>
+        </div>
+      </div>
+      <div class="side-wrapper">
+        <div class="side-title">MES LOISIRS</div>
+        <div class="side-menu">
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="40.000000pt" height="20.000000pt" viewBox="0 0 672.000000 1280.000000" preserveAspectRatio="xMidYMid meet">
+              
+              <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)" fill="#ffeb3b" stroke="none">
+              <path d="M80 12770 c-12 -16 -34 -59 -51 -95 -25 -56 -29 -76 -29 -152 0 -70 4 -95 20 -120 26 -43 53 -55 200 -91 69 -17 170 -45 225 -63 l100 -33 -45 -8 c-25 -5 -63 -14 -85 -21 -36 -11 -40 -15 -43 -50 -7 -78 73 -117 213 -104 62 6 63 6 70 -21 10 -41 33 -72 63 -83 48 -18 273 34 307 71 14 16 26 18 63 13 36 -5 48 -3 58 11 9 13 31 19 80 22 47 3 71 9 77 19 9 17 59 20 87 5 10 -6 52 -16 92 -24 41 -8 115 -30 166 -50 50 -20 96 -36 102 -36 5 0 90 -25 187 -56 305 -96 592 -217 701 -298 64 -46 152 -141 185 -197 69 -117 88 -316 48 -486 -17 -70 -20 -97 -12 -112 6 -11 18 -54 26 -97 8 -42 20 -82 26 -90 6 -8 8 -21 5 -30 -3 -9 1 -30 9 -48 14 -29 14 -36 0 -69 -9 -22 -15 -67 -15 -116 l0 -79 -35 -6 c-84 -16 -136 -98 -143 -226 -3 -61 -9 -87 -19 -94 -25 -14 -44 -72 -33 -101 8 -22 15 -25 55 -25 44 0 85 24 85 50 0 19 49 10 79 -16 17 -14 31 -30 31 -35 0 -5 -26 -9 -57 -9 -32 0 -63 -4 -69 -8 -7 -5 -13 -94 -17 -269 -4 -214 -3 -264 9 -273 39 -33 54 51 54 295 l0 195 70 0 c39 0 70 -2 70 -4 0 -3 -22 -16 -48 -31 -26 -14 -53 -34 -60 -45 -16 -26 -19 -417 -3 -483 8 -35 8 -53 0 -69 -11 -20 0 -37 24 -38 19 0 29 49 19 97 -7 32 -8 73 -2 118 5 39 11 88 12 111 l3 41 33 -14 32 -13 0 -99 c0 -126 7 -161 31 -161 39 0 59 35 59 106 0 64 1 66 40 102 23 20 50 51 61 68 19 31 22 32 72 27 36 -4 64 0 91 11 22 9 40 15 42 13 3 -2 33 -299 48 -468 l5 -57 -60 -22 c-72 -27 -117 -67 -126 -110 l-6 -32 -71 6 c-39 4 -86 2 -103 -3 -39 -11 -45 4 -9 20 40 19 50 101 16 140 l-20 24 -18 -21 c-13 -15 -26 -20 -43 -17 -16 3 -30 -2 -39 -12 -13 -15 -11 -20 10 -39 24 -20 25 -24 18 -106 -3 -47 -4 -172 -1 -277 5 -172 4 -193 -10 -193 -40 0 -44 19 -41 231 3 170 6 204 19 211 22 13 18 37 -7 47 -21 8 -22 13 -20 114 1 84 -1 109 -14 121 -30 30 -36 22 -48 -66 -4 -30 -1 -38 11 -38 13 0 15 -8 10 -42 -4 -24 -8 -306 -9 -628 -3 -566 -2 -585 16 -588 24 -5 36 14 36 58 0 36 14 60 36 60 16 0 26 -59 18 -109 l-7 -41 -63 0 c-65 0 -81 -9 -76 -42 2 -12 -6 -20 -25 -24 -15 -4 -31 -12 -35 -18 -4 -6 -8 -89 -8 -183 l0 -173 -24 11 c-13 6 -29 23 -36 38 -14 30 -14 198 0 401 6 74 14 221 20 325 9 181 21 255 41 255 6 0 9 -108 9 -267 -1 -269 1 -290 35 -280 18 6 24 269 22 892 l-2 610 -46 -3 c-45 -3 -74 12 -51 27 28 17 25 581 -3 581 -15 0 -31 -401 -20 -505 6 -54 5 -68 -8 -78 -9 -7 -19 -24 -22 -38 -5 -21 0 -33 27 -58 l33 -31 -29 -54 -29 -53 24 -32 23 -31 -27 -55 c-32 -66 -33 -78 -7 -96 19 -13 20 -25 21 -264 1 -234 0 -254 -21 -315 -19 -55 -24 -97 -30 -270 -4 -113 -13 -291 -20 -396 -16 -246 -10 -297 39 -344 36 -34 37 -37 30 -86 -5 -42 -13 -58 -44 -86 -48 -44 -48 -49 4 -288 27 -127 37 -190 31 -205 -5 -13 -30 -47 -55 -75 -42 -47 -46 -57 -42 -87 8 -49 24 -63 67 -63 30 0 43 6 59 26 29 37 26 44 -14 44 -28 0 -35 4 -35 20 0 28 56 88 69 75 8 -8 16 -519 11 -682 0 -7 -7 -13 -16 -13 -14 0 -15 28 -12 249 2 137 0 253 -4 256 -4 4 -14 5 -23 1 -14 -5 -15 -62 -12 -526 2 -479 1 -520 -14 -515 -22 7 -63 -9 -104 -42 -61 -48 -42 -81 52 -90 32 -3 61 -11 65 -17 4 -6 8 -48 8 -93 0 -83 8 -104 30 -78 9 11 10 38 5 98 -5 67 -4 86 8 96 13 10 16 -2 19 -91 2 -57 2 -108 0 -115 -4 -13 -41 -29 -92 -39 -19 -4 -45 -13 -57 -21 -32 -21 -61 -89 -66 -153 -3 -30 -14 -73 -26 -95 -32 -59 -29 -151 9 -270 17 -52 35 -97 40 -100 17 -11 11 -23 -23 -43 -27 -16 -37 -30 -50 -79 -19 -68 -23 -262 -6 -294 16 -32 56 -42 111 -28 69 16 78 34 78 154 0 75 4 108 18 134 28 57 39 49 46 -31 6 -68 -6 -257 -18 -276 -3 -5 -38 -14 -78 -22 -143 -25 -156 -40 -170 -202 -15 -163 -4 -256 32 -277 23 -12 30 -12 62 3 48 23 57 50 70 211 8 105 14 134 30 150 18 20 19 16 16 -257 -2 -193 -6 -278 -14 -278 -16 0 -44 34 -44 53 0 27 -28 19 -45 -12 -9 -18 -12 -41 -9 -60 5 -21 0 -40 -15 -64 -40 -64 -20 -110 54 -127 29 -7 46 -4 75 11 42 22 68 17 74 -15 3 -11 7 -120 11 -240 4 -186 8 -221 22 -231 14 -11 14 -13 -8 -28 -13 -10 -34 -17 -47 -17 -28 0 -68 -41 -75 -78 -7 -35 12 -76 38 -80 11 -2 24 -8 29 -12 10 -10 -29 -121 -48 -135 -10 -8 -11 -34 -5 -115 5 -58 9 -113 11 -124 2 -15 -9 -21 -62 -35 -74 -20 -137 -50 -162 -77 -38 -43 -38 -59 13 -309 27 -132 57 -302 68 -377 22 -157 35 -185 109 -222 68 -34 122 -39 197 -21 73 19 91 13 125 -36 21 -28 22 -34 11 -90 -7 -33 -11 -103 -10 -155 1 -52 -3 -100 -8 -105 -6 -6 -54 -33 -109 -62 -84 -44 -99 -56 -102 -79 -4 -30 28 -58 66 -58 12 0 63 21 112 47 l89 46 58 -60 c78 -80 137 -108 228 -107 39 0 88 4 111 8 33 7 49 4 85 -15 30 -16 71 -25 129 -30 47 -4 111 -16 143 -28 141 -52 454 -68 619 -31 180 40 337 104 480 196 83 53 214 178 248 234 14 23 39 59 57 79 17 20 45 70 61 111 102 259 156 527 168 834 3 83 13 184 21 224 18 87 13 154 -15 191 -18 25 -20 44 -21 202 -1 221 32 857 59 1138 14 143 86 460 136 598 24 68 44 134 44 148 0 13 12 50 26 82 14 32 33 87 43 123 23 83 59 168 127 300 85 167 263 430 300 444 8 3 42 -1 77 -9 71 -16 238 -35 311 -35 159 0 222 141 142 314 -69 150 -153 251 -356 430 -436 384 -930 636 -1506 766 -119 27 -147 30 -180 21 -85 -23 -140 -114 -132 -218 3 -48 13 -74 53 -142 28 -46 69 -103 92 -127 l42 -44 -56 -116 c-32 -68 -95 -237 -149 -403 -92 -277 -119 -389 -186 -756 l-13 -70 -41 -3 c-22 -2 -102 6 -178 18 -76 11 -157 20 -181 20 -29 0 -45 5 -49 15 -3 8 -15 15 -26 15 -22 0 -27 22 -7 38 6 6 30 13 52 17 22 4 50 17 62 28 25 22 27 20 37 -47 6 -48 21 -65 39 -47 9 9 12 62 12 194 l0 182 26 3 26 3 7 -168 c8 -188 12 -213 33 -213 13 0 15 29 12 217 -4 193 -2 218 12 221 14 2 17 -25 23 -230 6 -214 15 -279 32 -234 12 30 -3 477 -18 531 -15 57 -40 75 -104 75 l-42 0 -6 188 c-3 103 -8 211 -10 239 -3 29 0 55 5 58 12 8 12 62 -1 86 -8 15 -22 19 -58 19 -34 0 -43 3 -32 10 8 5 34 10 56 10 25 0 51 7 64 18 20 16 22 30 30 192 6 104 5 222 0 291 -10 119 -16 149 -30 149 -5 0 -4 15 1 32 11 40 11 184 0 252 -10 58 -30 76 -83 76 -59 0 -73 -29 -75 -165 -1 -89 -6 -182 -12 -237 -1 -4 -16 -8 -33 -10 -44 -4 -49 -32 -9 -46 38 -13 41 -32 5 -32 -27 0 -45 32 -58 103 -5 28 -4 37 7 37 7 0 23 10 35 23 28 29 29 80 2 114 -17 22 -20 41 -20 123 l0 98 68 4 c48 2 78 10 105 27 l37 23 0 81 c0 109 -5 124 -45 137 -84 28 -164 9 -180 -41 -11 -33 -25 -10 -25 40 l0 49 44 11 c25 6 58 22 73 35 27 23 28 28 28 108 -1 58 -6 93 -18 115 -18 35 -62 63 -97 63 -24 0 -60 17 -60 28 0 8 84 52 100 52 17 0 40 -32 40 -56 0 -53 63 -80 120 -51 24 12 25 16 22 82 -8 159 -54 297 -128 384 -32 37 -37 50 -35 85 4 68 -25 181 -67 262 -39 73 -39 76 -20 87 88 54 78 236 -20 333 -17 17 -33 42 -36 55 -10 46 -36 336 -51 574 -8 132 -16 264 -18 293 -3 47 -2 52 17 52 43 0 67 40 59 98 -6 37 -13 43 -67 57 -22 6 -43 17 -47 25 -4 8 -12 76 -17 150 -13 166 -30 219 -91 279 l-46 46 -3 272 -3 271 31 35 c37 43 40 88 7 121 -13 13 -30 25 -37 28 -25 8 1 45 55 81 l50 33 -3 114 c-5 163 -30 239 -144 433 -39 65 -40 69 -29 111 20 82 -18 128 -105 124 -41 -3 -49 0 -52 17 -6 28 -34 57 -128 131 -148 116 -311 200 -484 250 -76 22 -89 29 -126 72 l-42 47 -33 -14 c-19 -8 -83 -17 -144 -21 -60 -3 -118 -10 -128 -14 -40 -18 -50 -88 -19 -127 15 -18 17 -28 9 -49 -15 -39 -3 -64 26 -55 54 19 166 -5 212 -46 12 -10 42 -19 75 -22 55 -4 254 -73 340 -117 25 -12 71 -45 103 -71 32 -27 68 -49 79 -49 16 0 19 -5 13 -28 -4 -20 -1 -33 10 -42 13 -10 22 -8 55 14 22 14 40 23 40 19 0 -20 -42 -69 -62 -73 -32 -8 -35 -49 -7 -79 22 -23 47 -25 121 -6 26 7 29 3 78 -95 52 -104 110 -261 110 -299 0 -21 -4 -22 -86 -19 l-85 3 -40 104 c-21 58 -39 110 -39 117 0 7 -6 19 -13 26 -7 7 -29 36 -49 64 -78 107 -231 234 -390 322 -141 78 -548 228 -807 297 -130 34 -221 67 -221 80 0 3 7 19 15 35 24 47 61 43 348 -45 48 -15 94 -25 101 -22 16 6 26 40 17 55 -6 10 -382 102 -415 102 -8 0 -17 11 -20 24 -5 19 -16 25 -65 35 -121 24 -164 41 -201 82 -26 29 -47 41 -75 46 -28 4 -54 19 -88 51 -44 40 -52 44 -85 39 -22 -4 -207 22 -512 73 -263 44 -482 80 -488 80 -6 0 -20 -13 -32 -30z m177 -86 c58 -8 215 -37 350 -65 134 -27 255 -49 269 -49 29 0 32 -26 9 -70 -18 -35 -16 -35 -113 -11 -43 11 -165 36 -272 56 -396 73 -419 81 -390 136 13 23 15 23 147 3z m739 -185 c7 -12 -25 -89 -38 -89 -17 0 -19 28 -4 64 15 36 29 45 42 25z m144 -49 c0 -17 -23 -73 -35 -88 -1 -1 -10 0 -19 4 -20 8 -20 24 1 69 19 39 53 49 53 15z m173 -21 c7 -12 2 -34 -22 -86 -30 -65 -36 -71 -69 -76 -19 -4 -39 -4 -43 -1 -10 6 10 62 45 133 23 45 31 52 53 49 14 -2 30 -10 36 -19z m196 -84 c11 -11 10 -18 -8 -44 -26 -37 -51 -39 -106 -10 -22 12 -41 23 -43 24 -2 2 3 19 11 38 l15 34 58 -14 c33 -8 65 -21 73 -28z m904 -11 c-7 -117 -16 -164 -33 -164 -23 0 -33 26 -20 50 6 10 10 40 10 65 0 51 15 88 33 82 7 -2 11 -17 10 -33z m-115 -6 c-3 -7 -13 -13 -23 -13 -10 0 -20 6 -22 13 -3 7 5 12 22 12 17 0 25 -5 23 -12z m395 -100 c84 -35 257 -139 257 -154 0 -22 -12 -17 -73 26 -31 22 -95 58 -142 80 -102 47 -139 70 -112 70 10 0 42 -10 70 -22z m-1235 -51 c6 -5 12 -16 12 -23 0 -22 -112 -19 -141 4 -13 11 -20 25 -17 34 5 12 16 13 70 5 34 -5 69 -14 76 -20z m1142 -21 c239 -118 418 -233 390 -251 -12 -7 -40 7 -98 52 -79 60 -259 138 -364 157 -39 7 -47 22 -32 60 7 19 40 14 104 -18z m-1796 -15 c66 -32 143 -98 129 -111 -4 -4 -53 -14 -108 -23 -93 -16 -101 -15 -112 0 -7 9 -13 30 -13 45 0 39 -35 51 -128 45 -75 -6 -136 7 -129 26 5 16 202 56 255 52 23 -1 71 -17 106 -34z m446 27 c0 -20 -32 -48 -57 -48 -18 0 -23 5 -23 24 0 13 6 27 13 29 24 10 67 7 67 -5z m667 -157 c185 -62 366 -130 553 -210 132 -56 154 -69 248 -149 123 -103 190 -188 222 -280 13 -37 34 -91 46 -119 22 -51 22 -53 4 -63 -31 -16 -37 -12 -44 31 -25 158 -151 345 -296 440 -88 57 -324 164 -480 218 -80 27 -168 58 -196 70 -28 11 -127 43 -220 71 -93 28 -179 58 -192 66 -77 50 77 17 355 -75z m1165 -20 c43 -40 51 -52 41 -62 -19 -19 -16 -36 7 -42 12 -3 20 -14 20 -26 0 -24 -18 -28 -26 -6 -9 23 -37 26 -84 10 -24 -8 -45 -13 -48 -10 -9 9 16 28 50 39 43 14 49 47 13 70 -42 28 -65 55 -65 76 0 27 21 16 92 -49z m145 -294 c58 -88 137 -253 170 -354 27 -83 27 -85 8 -99 -28 -21 -35 -17 -35 16 0 17 -7 47 -16 68 -8 20 -26 71 -40 112 -30 90 -93 209 -140 267 -40 49 -41 53 -11 53 17 0 33 -16 64 -63z m111 -45 c17 -31 44 -91 60 -132 17 -41 44 -104 61 -140 32 -67 39 -104 20 -98 -6 2 -24 44 -40 93 -15 50 -60 152 -98 229 -39 76 -62 131 -52 122 10 -10 32 -43 49 -74z m142 -490 c0 -12 -31 -37 -54 -46 -11 -4 -63 -1 -116 5 -112 14 -197 3 -295 -36 -60 -25 -74 -22 -75 13 0 22 89 54 170 62 108 10 370 12 370 2z m-198 -102 c11 0 18 -5 16 -12 -3 -7 -25 -11 -64 -10 -32 1 -87 -2 -121 -6 -35 -5 -63 -5 -63 -2 0 14 126 39 169 35 24 -3 53 -5 63 -5z m-332 -187 c-1 -102 -3 -116 -14 -100 -24 31 -29 102 -11 162 8 30 18 55 20 55 3 0 5 -53 5 -117z m291 107 c22 -12 25 -52 6 -69 -18 -14 -27 -4 -27 31 0 20 -5 28 -17 28 -42 0 -148 -22 -174 -36 -26 -13 -29 -13 -29 1 0 19 28 31 105 43 85 13 114 13 136 2z m127 -43 c3 -27 -12 -57 -28 -57 -9 0 -21 70 -14 82 12 19 39 2 42 -25z m72 -13 c0 -21 -4 -33 -10 -29 -5 3 -10 19 -10 36 0 16 5 29 10 29 6 0 10 -16 10 -36z m-46 -207 c1 -99 -1 -117 -14 -115 -14 3 -17 47 -11 216 1 13 6 22 12 20 8 -3 12 -44 13 -121z m-351 -106 c-26 -31 -39 -5 -41 88 -2 83 0 93 21 114 l22 22 5 -105 c3 -72 1 -109 -7 -119z m197 184 c13 -14 31 -25 41 -25 30 0 40 -25 37 -92 l-3 -63 -90 -3 -90 -3 -2 87 c-1 48 2 95 8 105 15 29 70 25 99 -6z m95 -246 c6 -6 4 -14 -5 -23 -22 -21 -319 -29 -327 -10 -11 29 17 43 95 47 100 4 224 -3 237 -14z m60 -48 c-10 -27 -28 5 -20 36 l7 28 9 -24 c6 -14 7 -31 4 -40z m-29 -127 c4 -20 4 -89 2 -153 -3 -64 -2 -125 2 -137 5 -11 10 -38 12 -60 l3 -39 -58 -6 c-83 -9 -145 -50 -177 -117 -14 -28 -31 -52 -37 -52 -18 0 -16 10 7 45 25 37 25 68 1 121 -15 32 -27 45 -55 54 -43 14 -68 8 -60 -15 5 -11 -1 -15 -22 -15 -61 0 -85 67 -40 115 35 38 49 110 41 205 -4 44 -5 80 -2 80 4 0 18 -5 32 -12 18 -8 24 -16 18 -27 -4 -9 -9 -70 -11 -136 -3 -112 -2 -122 18 -148 15 -18 30 -27 44 -25 19 3 22 13 34 118 7 63 10 136 7 161 l-5 46 88 6 c49 4 100 11 113 16 36 15 38 14 45 -25z m-465 -124 c28 -16 26 -72 -3 -85 -21 -9 -23 -17 -23 -78 0 -37 -3 -67 -6 -67 -16 0 -27 29 -32 80 -3 30 -8 69 -12 86 -6 26 -3 34 20 53 32 24 30 24 56 11z m593 -104 c32 -56 46 -129 45 -239 -1 -109 -12 -85 -23 48 -9 108 -36 180 -72 189 -24 6 -42 45 -29 65 10 17 53 -17 79 -63z m-694 -73 c0 -24 -4 -43 -9 -43 -14 0 -23 53 -15 85 9 38 24 13 24 -42z m665 -52 c4 -25 9 -58 11 -73 3 -16 1 -28 -5 -28 -21 0 -39 46 -46 115 l-8 70 21 -19 c13 -11 23 -36 27 -65z m-614 -41 c24 -14 24 -36 0 -50 -15 -7 -25 -5 -42 9 -40 33 -6 66 42 41z m166 -23 c25 -24 9 -67 -24 -67 -43 0 -93 22 -93 41 0 42 11 51 58 46 24 -3 51 -12 59 -20z m71 -9 c18 -18 15 -54 -8 -99 -18 -34 -23 -38 -40 -29 -24 13 -26 26 -5 33 8 4 17 26 21 57 7 52 12 58 32 38z m271 -13 c28 -14 104 -93 121 -125 7 -14 -4 -15 -88 -13 -53 2 -121 6 -149 9 -50 5 -53 7 -53 32 0 34 23 68 64 93 37 23 67 24 105 4z m-584 -22 c16 -16 16 -17 0 -29 -21 -16 -45 -7 -45 15 0 34 20 40 45 14z m370 -163 c3 -6 -1 -13 -9 -16 -21 -8 -66 3 -66 16 0 13 67 13 75 0z m135 -10 c0 -5 -9 -10 -20 -10 -49 0 -2 -64 55 -74 45 -9 73 4 117 53 50 56 66 52 33 -6 -45 -80 -69 -96 -136 -91 -43 3 -66 11 -94 32 -36 27 -68 82 -59 98 8 12 104 10 104 -2z m380 -5 c7 -8 9 -22 6 -31 -5 -13 -18 -16 -71 -12 -72 4 -96 18 -75 43 17 21 123 21 140 0z m-528 -65 c10 -12 18 -27 18 -32 0 -11 -39 0 -60 17 -10 9 -33 11 -67 8 -56 -6 -69 6 -30 25 36 19 118 8 139 -18z m442 -72 c3 -24 10 -119 16 -213 21 -340 31 -462 52 -588 11 -70 19 -130 16 -132 -2 -3 -19 -8 -37 -11 -32 -7 -33 -6 -21 16 21 39 8 176 -22 235 -21 42 -26 69 -32 175 -7 126 -31 439 -41 518 l-5 42 34 0 c32 0 34 -2 40 -42z m-573 12 c23 -19 23 -21 6 -34 -11 -8 -25 -12 -33 -9 -25 9 -30 63 -5 63 5 0 19 -9 32 -20z m106 -34 c-19 -28 -42 -26 -50 4 -9 34 27 58 52 34 12 -11 12 -16 -2 -38z m39 -31 c-32 -58 -115 -84 -160 -50 -18 14 -16 15 27 15 67 0 111 21 127 60 8 19 16 28 18 20 3 -7 -3 -28 -12 -45z m364 -663 c54 -54 61 -147 15 -196 -48 -52 -151 -41 -190 22 -13 21 -28 31 -45 32 -20 0 -22 2 -10 10 9 6 50 7 101 4 93 -7 117 3 85 34 -12 13 -36 17 -91 17 -41 0 -77 4 -81 7 -5 6 37 48 85 85 9 7 35 13 59 13 35 0 49 -6 72 -28z m-720 -297 c0 -123 -4 -195 -10 -195 -6 0 -10 58 -10 153 0 83 -4 169 -9 189 -8 35 -4 45 22 47 4 1 7 -87 7 -194z m404 129 c39 -6 46 -10 46 -29 0 -12 14 -41 31 -64 l30 -43 -44 -44 c-55 -54 -79 -104 -75 -152 3 -36 2 -37 -33 -40 l-36 -3 -6 153 c-6 137 -5 172 9 216 4 14 13 14 78 6z m429 -110 c23 -7 22 -24 -2 -24 -28 0 -81 21 -81 32 0 9 33 5 83 -8z m-100 -50 c36 -19 75 -51 88 -75 7 -14 1 -16 -59 -11 -56 4 -75 1 -110 -17 -34 -18 -72 -62 -72 -86 0 -15 32 -2 46 20 17 26 85 51 112 40 13 -5 10 -10 -13 -25 -17 -11 -39 -30 -50 -44 -19 -23 -23 -24 -122 -19 l-103 6 0 39 c0 67 45 135 115 171 39 21 127 21 168 1z m177 -21 c0 -10 -7 -27 -16 -38 -13 -17 -16 -18 -24 -5 -13 21 -12 26 6 44 20 21 34 20 34 -1z m70 -91 c0 -11 -9 -27 -20 -37 -22 -20 -26 -9 -8 30 13 29 28 33 28 7z m-158 -99 c27 -24 40 -82 25 -112 -18 -39 -77 -42 -113 -6 -23 23 -25 31 -19 73 3 26 14 53 23 60 20 15 59 8 84 -15z m-195 -59 c14 -4 23 -16 27 -38 9 -46 33 -76 80 -97 l41 -19 -32 0 c-41 0 -107 56 -125 106 -15 41 -44 46 -58 9 -11 -30 -1 -62 35 -109 32 -42 31 -48 -2 -35 -27 10 -116 101 -140 143 -24 42 -18 46 70 46 45 0 92 -3 104 -6z m-421 -61 c7 -56 -1 -311 -10 -320 -2 -3 -13 -2 -23 1 -16 5 -18 20 -20 128 -2 68 0 151 3 186 5 52 9 62 24 62 15 0 20 -11 26 -57z m176 -24 c9 -19 22 -53 28 -77 15 -57 70 -117 123 -135 35 -11 42 -18 45 -43 2 -24 -7 -38 -54 -84 -76 -73 -131 -190 -90 -190 23 0 44 27 57 71 7 22 28 56 48 74 l35 35 30 -36 c16 -20 44 -43 63 -50 37 -16 38 -19 18 -54 -8 -14 -14 -36 -15 -49 l0 -24 -147 6 c-184 7 -189 8 -152 48 28 30 59 111 59 153 0 64 -48 148 -95 166 -18 7 -23 19 -28 71 -11 105 -9 126 15 143 30 21 40 17 60 -25z m541 -11 c3 -13 11 -63 17 -113 19 -157 27 -180 70 -210 43 -30 94 -97 88 -116 -2 -7 -14 1 -27 19 -46 66 -79 30 -67 -73 4 -33 2 -56 -4 -60 -14 -9 -51 5 -44 16 3 5 3 28 -1 49 -8 47 -54 98 -96 107 -30 6 -30 3 -15 75 4 15 1 49 -4 75 -9 38 -8 50 3 58 29 21 46 62 52 128 7 68 18 85 28 45z m-166 -210 c64 -70 55 -135 -19 -153 -60 -15 -100 16 -113 86 -5 27 -2 41 15 62 28 36 87 38 117 5z m-439 -18 c60 -37 79 -133 34 -173 -27 -24 -66 -31 -81 -13 -11 13 -6 16 28 26 60 16 83 45 62 79 -7 11 -13 10 -33 -3 -46 -30 -76 3 -63 70 7 40 9 40 53 14z m545 -228 c64 -58 62 -162 -4 -162 -86 0 -168 98 -131 157 22 35 99 38 135 5z m297 -189 c0 -29 -4 -53 -10 -53 -11 0 -11 -1 -15 85 -3 53 -1 57 11 40 8 -10 14 -42 14 -72z m-955 -63 c0 -69 2 -131 5 -139 3 -9 -9 -18 -38 -28 -66 -23 -72 -16 -72 77 0 75 1 81 24 89 21 9 36 36 36 69 0 7 -16 20 -35 28 -53 22 -43 35 23 32 l57 -3 0 -125z m789 73 c-21 -15 -39 -12 -39 7 0 16 48 31 54 17 2 -6 -5 -16 -15 -24z m-564 -35 c8 -13 27 -36 43 -52 15 -16 26 -31 23 -34 -3 -2 -48 -7 -99 -10 -92 -4 -94 -4 -100 19 -9 31 -9 73 0 94 10 28 113 14 133 -17z m188 20 c14 -18 -2 -55 -27 -63 -39 -12 -94 38 -69 63 16 16 83 15 96 0z m112 -26 c0 -65 -179 -152 -314 -152 -72 0 -47 14 67 38 113 24 173 54 202 99 22 35 45 43 45 15z m134 -28 c24 -23 19 -55 -14 -94 -23 -28 -31 -33 -42 -22 -7 7 -13 31 -13 53 0 31 6 46 24 60 28 23 26 23 45 3z m-117 -136 l5 -43 -128 3 c-137 3 -180 15 -93 25 29 4 84 22 123 40 39 19 75 31 80 27 4 -5 10 -28 13 -52z m264 35 c58 -49 76 -129 38 -177 -27 -34 -68 -34 -109 0 -63 54 -81 135 -39 180 30 32 69 31 110 -3z m-701 -7 c0 -18 -16 -29 -30 -21 -13 8 -1 35 16 35 8 0 14 -6 14 -14z m-61 -106 c25 0 27 -4 40 -70 7 -42 9 -75 3 -85 -13 -25 -30 2 -34 55 -3 48 -28 67 -44 33 -11 -23 -13 -541 -2 -570 4 -14 16 -23 28 -23 19 0 26 14 32 69 2 14 8 26 15 28 13 5 53 -31 53 -47 0 -6 -21 -33 -47 -59 -46 -47 -51 -49 -110 -53 -70 -3 -73 -1 -73 63 0 31 4 39 18 39 27 0 42 20 42 55 0 35 -15 55 -42 55 -15 0 -18 9 -18 63 0 62 1 64 33 78 42 18 42 43 0 47 l-32 3 -3 112 c-2 62 0 113 4 115 40 18 73 52 76 76 3 20 8 26 19 22 8 -3 27 -6 42 -6z m357 -75 c-62 -26 -110 -59 -150 -102 -27 -29 -51 -103 -43 -133 5 -19 0 -20 -58 -20 l-64 0 10 32 c5 18 9 44 9 57 0 14 10 35 22 48 15 16 23 40 26 78 l4 54 102 4 c55 1 124 4 151 4 l50 2 -59 -24z m164 15 c11 -7 6 -10 -20 -10 -19 0 -42 5 -50 10 -11 7 -6 10 20 10 19 0 42 -5 50 -10z m-784 -64 c3 -7 4 -33 2 -57 l-3 -44 -11 58 c-6 31 -7 57 -2 57 5 0 11 -6 14 -14z m770 -31 c55 -16 106 -62 121 -110 8 -25 17 -31 53 -38 52 -11 85 2 102 38 11 24 16 26 67 23 l56 -3 3 -81 c3 -91 -6 -107 -59 -107 -32 0 -79 37 -79 63 0 9 -6 24 -13 34 -13 18 -15 17 -36 -13 -27 -37 -38 -39 -51 -7 -8 22 -12 23 -47 15 -21 -5 -117 -6 -215 -3 -154 6 -178 9 -178 23 0 30 30 115 48 134 41 47 135 60 228 32z m-782 -121 c35 -13 11 -44 -34 -44 -28 0 -36 21 -15 37 21 15 27 16 49 7z m11 -117 c11 -17 13 -39 8 -90 -3 -37 -9 -67 -13 -67 -10 0 -40 110 -40 148 0 39 22 43 45 9z m888 -14 c11 -6 -1 -62 -19 -90 -32 -51 -140 -83 -212 -64 -69 19 -159 125 -137 161 5 8 57 9 184 4 97 -3 180 -9 184 -11z m-497 -33 c48 0 54 -2 54 -20 0 -40 31 -92 91 -156 l62 -64 -62 -56 c-72 -66 -118 -140 -127 -206 -7 -51 -17 -58 -86 -58 -42 0 -85 -17 -92 -35 -2 -7 -6 -105 -7 -216 l-2 -204 34 -9 c19 -6 37 -14 41 -20 10 -16 -2 -28 -21 -20 -9 4 -36 12 -60 19 -36 9 -45 17 -46 35 -1 13 -12 30 -23 38 -22 14 -22 18 -22 323 l0 309 44 0 c50 0 56 -8 56 -79 0 -72 44 -101 58 -38 l7 32 5 -40 c6 -44 30 -57 64 -32 16 12 19 28 20 116 1 90 -1 104 -17 113 -17 8 -15 13 17 49 48 52 49 96 5 133 -20 17 -43 26 -65 26 -33 0 -34 1 -34 40 0 38 1 39 26 30 14 -6 50 -10 80 -10z m579 -168 c-7 -67 -22 -78 -39 -29 -7 18 -4 50 9 109 l19 83 9 -50 c5 -27 6 -78 2 -113z m235 59 c5 -11 10 -71 10 -134 0 -98 -3 -118 -19 -138 -11 -13 -21 -22 -23 -19 -7 11 4 310 12 310 5 0 14 -9 20 -19z m-316 -67 c9 -23 7 -47 -4 -64 -9 -13 -11 -13 -20 0 -11 17 -13 63 -3 73 11 11 20 8 27 -9z m-69 -128 c60 -27 109 -80 144 -156 34 -74 36 -194 4 -255 -58 -110 -161 -148 -292 -109 -62 18 -119 70 -156 144 l-25 50 214 0 c214 0 241 4 217 34 -8 9 -68 15 -223 19 -117 4 -226 11 -243 16 l-30 9 27 1 c33 1 50 29 42 69 -13 65 41 147 121 183 57 26 138 24 200 -5z m166 14 c21 -12 27 -70 7 -70 -19 0 -58 42 -58 62 0 20 21 23 51 8z m203 -176 c3 -9 4 -19 2 -23 -3 -4 2 -83 10 -176 8 -94 12 -180 9 -193 -3 -12 3 -39 15 -62 26 -51 25 -64 -5 -78 -32 -15 -53 -15 -94 -1 -50 18 -36 49 23 49 22 0 46 17 46 32 0 13 -68 9 -103 -6 -46 -19 -70 -50 -73 -94 -3 -50 -3 -50 -19 -28 -15 20 -20 72 -9 100 3 9 16 16 29 16 23 0 35 29 35 90 0 33 25 57 65 62 40 4 47 40 39 190 -3 64 -3 121 1 127 9 16 22 13 29 -5z m882 -29 c355 -74 1007 -408 1395 -716 185 -147 386 -367 409 -447 13 -47 13 -112 0 -112 -5 0 -10 18 -10 40 0 50 -13 51 -88 9 -75 -42 -194 -72 -256 -65 -42 5 -49 3 -53 -14 -3 -11 -7 -20 -9 -20 -17 0 -184 74 -289 129 -278 144 -487 269 -684 409 -254 181 -389 292 -512 418 -113 117 -151 186 -157 280 -4 62 -4 63 29 83 42 26 119 27 225 6z m-988 -125 l3 -35 -21 33 c-24 40 -25 44 -2 40 11 -2 18 -14 20 -38z m-775 -181 c-1 -121 -5 -185 -12 -187 -8 -3 -11 55 -11 188 0 149 3 191 13 187 9 -3 12 -48 10 -188z m104 153 c7 -4 21 -35 31 -69 47 -151 170 -247 318 -246 l70 0 3 -44 c1 -24 0 -47 -3 -52 -3 -5 -25 -2 -48 6 -54 19 -112 11 -177 -21 -82 -42 -105 -97 -122 -293 l-10 -123 32 -60 c41 -78 113 -144 174 -159 25 -6 50 -9 56 -5 10 6 39 -13 39 -26 0 -4 -135 -6 -300 -6 l-300 1 0 293 0 293 23 -3 22 -3 0 -251 c0 -198 3 -254 14 -267 18 -22 39 -21 79 3 18 11 39 20 47 20 8 0 22 11 30 24 13 20 14 29 4 47 -7 14 -9 43 -6 78 3 31 0 121 -8 201 -17 171 -20 622 -5 651 12 21 19 23 37 11z m511 -312 c4 -73 -4 -103 -18 -80 -15 24 -13 153 3 148 7 -3 13 -28 15 -68z m-807 -73 c-17 -17 -56 -3 -59 21 -3 22 -3 22 32 5 21 -10 33 -20 27 -26z m1978 -64 c31 -14 74 -41 96 -62 22 -20 56 -43 75 -51 19 -8 41 -22 48 -32 7 -10 18 -18 24 -18 6 0 37 -25 69 -55 83 -76 270 -221 339 -261 67 -39 105 -81 115 -123 8 -38 -5 -61 -49 -92 -22 -14 -40 -38 -47 -59 -7 -19 -33 -82 -59 -140 -54 -120 -73 -177 -59 -186 13 -8 11 -58 -3 -72 -7 -7 -20 -12 -30 -12 -10 0 -21 -7 -25 -15 -8 -22 4 -30 21 -16 8 6 19 10 25 9 7 -2 44 75 85 177 40 99 96 228 124 288 48 101 52 107 80 107 16 0 39 -8 50 -17 21 -18 21 -18 -39 -123 -88 -154 -114 -213 -184 -419 -35 -102 -81 -231 -103 -286 -116 -291 -203 -687 -242 -1100 -14 -150 -35 -771 -35 -1041 0 -174 3 -225 14 -238 8 -9 12 -18 10 -20 -12 -10 -399 -26 -421 -17 -22 8 -26 17 -31 72 -11 97 -8 248 4 271 13 24 25 448 15 504 -9 46 -36 46 -36 0 0 -19 -5 -38 -10 -41 -7 -4 -6 -13 1 -26 13 -26 13 -162 -2 -348 -6 -79 -9 -209 -7 -287 4 -118 3 -144 -9 -148 -50 -19 -361 15 -409 45 -42 26 -46 51 -32 211 7 73 12 256 13 407 0 243 -2 277 -17 295 -15 19 -18 20 -33 5 -12 -12 -18 -41 -22 -98 -6 -86 -15 -97 -48 -61 -15 17 -18 39 -18 148 0 81 4 135 12 150 27 51 -12 55 -112 11 -109 -48 -137 -49 -189 -5 -32 28 -48 36 -67 31 -19 -5 -22 -3 -17 9 3 9 9 23 12 31 4 10 0 15 -14 15 -12 0 -30 -16 -46 -40 -21 -31 -33 -40 -55 -40 -75 0 -118 140 -63 203 26 29 50 20 88 -33 59 -82 101 -54 57 37 -48 101 -180 68 -222 -56 -25 -75 -5 -173 40 -197 45 -23 111 -18 154 12 l38 25 43 -42 c24 -24 40 -47 37 -56 -3 -7 -25 -25 -49 -39 -62 -36 -144 -36 -219 1 -108 52 -147 136 -149 317 -1 103 0 107 29 149 17 24 53 57 79 74 42 25 59 30 115 30 99 0 131 -24 187 -138 55 -114 57 -138 8 -156 -56 -20 -37 -36 42 -34 44 1 103 13 162 32 92 29 94 29 113 10 14 -14 19 -33 19 -74 0 -81 19 -118 74 -144 43 -21 54 -22 181 -15 133 7 135 7 135 30 0 28 -2 28 46 8 l39 -16 -28 -22 c-56 -42 -89 -76 -85 -89 7 -21 66 -20 101 2 33 21 78 73 90 103 9 26 -27 63 -88 88 -30 12 -55 24 -55 26 0 2 15 23 33 47 18 24 43 71 56 106 12 34 30 65 39 68 9 3 67 25 127 49 61 24 114 44 118 44 4 0 7 -27 7 -59 0 -62 13 -88 24 -48 3 12 6 44 6 70 0 92 31 344 60 489 29 144 39 258 22 258 -27 0 -64 -170 -87 -392 -26 -256 -22 -238 -56 -238 -25 0 -29 3 -24 23 49 213 130 666 120 675 -10 10 -33 -8 -38 -30 -33 -151 -71 -356 -92 -498 -14 -95 -27 -175 -29 -177 -7 -8 -173 -43 -267 -58 l-106 -16 -135 45 c-74 25 -142 46 -151 46 -9 0 -35 16 -57 36 -38 35 -40 39 -40 98 0 109 18 232 38 272 20 38 68 92 76 83 2 -2 -2 -43 -9 -90 -8 -47 -17 -143 -20 -212 l-8 -127 26 0 c32 0 34 10 41 199 6 149 24 206 79 245 34 25 52 16 84 -40 23 -42 30 -103 25 -241 -2 -58 -5 -71 -16 -67 -23 9 -28 51 -15 136 8 58 9 86 0 104 -10 24 -65 64 -88 64 -23 0 -37 -103 -36 -264 2 -189 2 -189 111 -210 40 -8 79 -19 87 -26 13 -10 19 -10 34 4 14 13 20 37 24 104 5 78 3 93 -19 141 -24 54 -32 111 -15 111 5 0 24 -39 41 -87 24 -65 33 -106 34 -158 1 -73 7 -85 43 -85 18 0 22 7 28 49 8 60 -5 135 -46 254 -37 110 -53 138 -113 196 -25 24 -43 48 -40 53 9 15 74 9 74 -6 0 -30 23 -26 85 14 35 23 76 45 92 49 15 4 30 15 31 25 5 22 -73 97 -92 90 -7 -3 -16 2 -19 10 -9 24 -29 20 -22 -4 5 -15 2 -20 -12 -20 -17 -1 -17 -2 -1 -13 9 -7 31 -20 48 -30 l32 -17 -25 -20 c-28 -22 -52 -26 -63 -9 -6 11 -57 9 -167 -7 l-49 -7 6 79 c3 43 8 126 11 184 20 360 93 747 205 1080 72 215 83 238 126 256 20 9 47 13 59 10 l23 -6 -19 -37 c-10 -20 -19 -45 -19 -55 0 -10 -10 -28 -21 -39 -26 -26 -85 -168 -140 -338 -51 -156 -97 -451 -85 -545 4 -32 11 -54 15 -50 5 5 14 68 21 139 7 72 19 145 26 163 7 18 25 87 39 152 17 83 34 134 56 172 18 29 49 112 71 183 51 170 56 179 93 183 48 5 60 11 47 24 -7 7 -12 27 -12 44 0 39 -34 70 -97 87 -24 6 -43 17 -43 23 0 7 9 33 20 59 l20 47 37 -32 c20 -18 62 -44 92 -57z m-1356 2 c39 -8 114 -79 127 -121 8 -24 19 -36 38 -40 15 -3 39 -9 53 -14 15 -4 73 -6 130 -3 157 8 114 -10 -106 -46 -181 -30 -346 -64 -367 -77 -5 -4 5 -19 24 -35 30 -26 38 -28 89 -23 l55 6 -4 -63 c-6 -85 -18 -98 -72 -74 -141 63 -205 296 -117 426 23 34 91 80 111 74 6 -2 24 -6 39 -10z m445 -28 c28 -22 6 -27 -110 -27 -68 0 -136 -1 -153 -3 -24 -2 -31 2 -33 21 l-3 23 143 -2 c79 -1 149 -6 156 -12z m-1073 -418 c-2 -220 -5 -403 -8 -406 -4 -3 -13 -3 -22 0 -15 6 -17 65 -20 724 0 63 1 68 25 74 14 4 25 7 26 8 1 1 0 -179 -1 -400z m-105 130 c0 -208 -2 -240 -16 -246 -8 -3 -20 -1 -27 6 -8 8 -8 11 0 11 7 0 11 10 11 23 -1 12 -1 120 0 239 2 189 4 217 17 212 13 -5 15 -42 15 -245z m287 169 c-2 -13 -4 -5 -4 17 -1 22 1 32 4 23 2 -10 2 -28 0 -40z m788 -293 c0 -94 -3 -129 -12 -132 -10 -4 -13 27 -13 132 0 103 3 136 12 133 9 -3 13 -41 13 -133z m104 117 c6 -10 11 -62 12 -115 2 -106 -7 -130 -49 -125 -23 3 -24 5 -28 115 -5 107 -4 112 18 127 29 20 35 20 47 -2z m-205 -39 c3 -21 6 -89 6 -151 0 -127 6 -137 66 -108 25 11 63 16 134 16 103 0 155 -11 148 -33 -6 -17 -247 -33 -306 -19 -44 10 -47 9 -74 -20 -40 -43 -60 -32 -51 29 10 68 10 241 -1 286 l-8 37 40 0 c38 0 40 -1 46 -37z m-118 -15 c4 -6 7 -87 6 -180 l-1 -168 37 -38 c21 -20 48 -63 61 -95 39 -95 73 -58 47 51 -7 30 -6 32 17 32 21 0 26 -6 31 -37 11 -63 17 -73 37 -73 17 0 19 8 19 75 0 68 2 75 20 75 28 0 38 -26 41 -104 2 -63 1 -69 -22 -82 -39 -22 -117 -42 -224 -59 -55 -8 -135 -23 -178 -32 -66 -14 -85 -14 -113 -4 -27 10 -38 10 -49 1 -11 -9 -15 -5 -21 25 -14 79 11 149 84 230 36 41 52 51 86 55 34 4 42 9 44 30 2 13 13 35 23 49 16 19 19 41 19 120 0 99 6 141 21 141 4 0 11 -5 15 -12z m-536 -85 c0 -27 -3 -34 -11 -26 -7 7 -9 23 -5 37 9 37 16 32 16 -11z m-411 -82 c20 -13 3 -33 -22 -25 -28 8 -30 11 -22 23 8 13 25 14 44 2z m3181 -147 c0 -42 -1 -44 -30 -44 -33 0 -38 14 -15 44 8 11 15 28 15 38 0 11 5 15 15 12 10 -4 15 -20 15 -50z m-2774 -10 c26 -7 64 -118 47 -135 -16 -16 -33 -2 -33 26 0 60 -43 95 -117 95 -12 0 -25 5 -28 10 -7 11 94 14 131 4z m254 -59 c0 -1 -11 -22 -24 -46 -13 -24 -27 -55 -31 -69 -5 -14 -20 -40 -34 -59 -22 -30 -26 -44 -26 -105 0 -124 71 -258 160 -300 42 -20 43 -28 9 -64 -14 -15 -38 -52 -52 -82 -33 -69 -42 -200 -19 -300 8 -36 13 -79 10 -97 -6 -39 12 -98 44 -141 26 -34 23 -49 -10 -61 -15 -6 -30 -2 -50 13 -64 47 -166 7 -215 -84 -25 -47 -25 -66 -4 -197 10 -63 21 -77 78 -99 42 -16 84 -16 142 2 21 6 22 5 11 -22 -6 -16 -17 -69 -24 -119 -10 -68 -13 -79 -14 -45 -1 25 -6 52 -11 60 -9 13 -13 11 -30 -10 -44 -57 -31 -159 25 -196 15 -10 54 -53 86 -96 33 -43 71 -85 84 -94 l25 -16 -26 -34 c-19 -25 -25 -41 -21 -61 5 -24 -3 -37 -53 -88 -54 -55 -61 -67 -80 -139 -23 -90 -27 -234 -9 -318 18 -82 42 -129 99 -191 29 -32 50 -61 46 -64 -10 -11 -170 -15 -185 -5 -10 8 -11 14 -1 32 22 41 7 119 -45 230 -57 125 -60 129 -105 148 -52 21 -63 32 -49 49 9 10 9 23 0 53 -16 55 -56 98 -101 110 -38 10 -38 11 -45 71 -4 33 -5 62 -3 65 3 2 31 -5 63 -16 105 -36 131 -29 185 51 57 82 52 145 -15 234 -31 39 -179 141 -242 164 -41 16 -41 17 -27 44 8 15 21 27 29 27 8 0 18 8 23 18 5 9 8 123 8 252 -1 264 -4 280 -60 280 -43 0 -50 9 -27 34 17 19 19 29 12 81 -5 33 -6 107 -3 165 3 81 0 120 -13 170 -10 36 -17 74 -15 85 1 11 3 61 4 112 3 123 21 146 78 98 16 -14 42 -25 56 -25 43 1 107 35 136 72 28 38 32 58 15 89 -7 14 -7 29 2 53 16 45 -8 121 -38 120 -18 0 -21 8 -26 54 -6 56 -31 96 -69 107 -22 8 -35 52 -20 67 8 8 21 6 46 -7 29 -16 37 -17 50 -6 21 18 20 0 -1 -38 -24 -41 -10 -54 68 -59 92 -7 124 19 131 108 3 32 6 36 38 40 31 5 60 3 60 -5z m3251 -18 c-16 -16 -169 -16 -196 1 -17 11 -7 12 55 7 41 -3 91 -1 110 3 40 10 49 7 31 -11z m-591 -48 c0 -7 -16 -36 -36 -65 -47 -72 -194 -358 -237 -464 -59 -143 -166 -447 -208 -588 -104 -357 -129 -585 -164 -1472 -9 -212 -17 -390 -19 -395 -3 -10 -77 -38 -82 -32 -1 1 2 184 7 407 13 623 33 919 84 1226 31 183 78 381 104 432 10 20 21 53 25 73 4 21 13 42 21 49 8 7 15 26 15 42 0 31 35 108 49 108 5 0 7 8 5 18 -2 9 19 76 48 147 39 95 58 130 70 130 18 0 107 111 108 134 0 9 -7 11 -25 7 -31 -8 -31 -3 1 53 50 86 98 144 143 172 46 30 91 38 91 18z m-3185 -72 c10 -8 15 -19 11 -25 -15 -25 -63 -4 -53 22 8 20 18 20 42 3z m129 -38 c35 -28 32 -63 -6 -67 -36 -4 -65 36 -48 67 14 26 21 26 54 0z m-126 -62 c6 -5 12 -18 12 -30 0 -16 -14 -29 -52 -49 -28 -15 -53 -27 -54 -25 -1 1 -5 34 -9 73 l-7 72 48 -17 c27 -9 55 -20 62 -24z m-144 -59 c8 -124 6 -299 -4 -323 -5 -12 -9 45 -10 150 0 94 -5 189 -9 212 -8 41 -6 53 9 53 4 0 10 -41 14 -92z m1069 -21 c-3 -53 -28 -90 -95 -142 -63 -50 -100 -57 -166 -29 -58 24 -118 90 -136 149 -5 18 0 20 62 22 37 2 121 11 187 22 66 10 127 18 135 17 11 -1 14 -12 13 -39z m-728 -8 c7 -21 -11 -79 -25 -79 -10 0 -22 78 -15 91 11 16 33 10 40 -12z m-79 -23 c7 -28 -3 -69 -16 -61 -14 9 -17 85 -3 85 7 0 15 -11 19 -24z m-311 -78 c3 -46 5 -119 3 -163 l-3 -80 -30 80 c-35 94 -40 176 -12 218 9 15 21 27 26 27 5 0 12 -37 16 -82z m213 70 c17 -17 15 -47 -3 -54 -21 -9 -65 23 -65 46 0 15 7 20 28 20 15 0 33 -5 40 -12z m-98 -240 c0 -124 -1 -128 -21 -128 -19 0 -21 4 -16 43 4 23 9 86 13 141 9 136 24 102 24 -56z m1202 126 c4 -3 8 -35 8 -72 0 -37 3 -98 7 -136 5 -55 10 -70 25 -74 14 -3 16 -7 7 -18 -6 -8 -17 -14 -25 -14 -7 0 -29 -10 -50 -22 -33 -19 -243 -67 -375 -84 -42 -6 -51 -4 -66 15 -17 20 -19 21 -40 6 -25 -18 -30 -44 -11 -63 15 -15 164 -16 258 -1 102 15 104 14 76 -46 -22 -49 -78 -115 -97 -115 -5 0 -17 17 -28 38 -10 20 -31 48 -46 62 -24 23 -34 25 -105 23 l-79 -1 -12 35 c-6 20 -11 64 -11 99 0 119 65 207 169 229 66 13 162 -56 182 -132 9 -36 46 -44 56 -13 4 12 4 37 0 57 -5 30 -4 34 12 31 10 -2 27 -21 38 -43 12 -22 31 -44 43 -50 12 -5 22 -16 22 -24 0 -12 3 -12 12 -3 10 10 10 17 0 32 -12 20 -17 112 -6 123 8 8 14 88 8 108 -11 36 -93 46 -131 16 -20 -15 -16 13 5 36 15 17 25 18 81 13 35 -4 68 -9 73 -12z m333 -121 c-4 -54 -9 -113 -10 -132 -3 -37 -18 -51 -52 -51 -23 0 -23 2 -23 130 l0 129 33 10 c62 18 61 21 52 -86z m-135 67 c6 -11 10 -57 8 -103 -3 -70 -5 -78 -14 -57 -13 29 -23 180 -12 180 4 0 12 -9 18 -20z m-52 -100 c4 -85 -7 -151 -27 -158 -9 -3 -11 2 -7 16 4 13 2 24 -7 29 -40 23 -52 127 -18 157 11 10 22 29 26 44 6 25 7 26 18 7 6 -11 12 -53 15 -95z m1441 -22 c-7 -13 -14 -18 -16 -11 -3 7 1 22 8 35 7 13 14 18 16 11 3 -7 -1 -22 -8 -35z m-2799 -117 c0 -5 -20 -25 -45 -46 -74 -60 -79 -74 -85 -209 -3 -83 -9 -121 -17 -124 -23 -7 -33 47 -33 166 0 91 4 123 16 140 15 22 77 58 124 73 35 10 40 10 40 0z m1515 -126 c-5 -54 -4 -66 9 -71 30 -11 16 -31 -25 -38 -23 -4 -44 -5 -46 -2 -2 2 -5 33 -6 69 -2 71 17 107 56 107 18 0 19 -5 12 -65z m-311 -114 c-3 -125 -1 -142 16 -164 11 -13 16 -27 13 -31 -9 -9 -61 -7 -67 3 -3 5 -6 69 -7 143 -2 115 1 140 16 166 10 17 22 29 25 27 4 -2 6 -67 4 -144z m137 8 c-2 -58 -9 -96 -23 -122 -22 -45 -42 -44 -46 1 -4 39 49 213 63 209 6 -2 9 -36 6 -88z m64 -4 c0 -22 -5 -40 -12 -42 -9 -3 -13 9 -13 42 0 33 4 45 13 43 7 -3 12 -21 12 -43z m-592 -25 c35 -28 61 -100 53 -144 -8 -41 -47 -76 -86 -76 -54 0 -110 70 -110 137 1 81 84 129 143 83z m247 -152 c0 -52 -11 -61 -61 -53 l-43 7 42 39 c23 22 46 39 52 39 5 0 10 -15 10 -32z m210 -52 c-25 -32 -134 -56 -286 -66 -82 -5 -163 -13 -180 -18 -39 -12 -94 -40 -116 -59 -24 -21 -52 -10 -39 15 24 44 180 82 376 91 121 6 159 11 195 28 54 26 66 28 50 9z m-1290 -63 c-104 -36 -130 -78 -130 -214 0 -92 -8 -139 -24 -139 -16 0 -14 273 2 311 15 36 68 56 157 57 l40 0 -45 -15z m1218 -71 c4 -24 -14 -62 -28 -62 -11 0 -14 73 -3 84 12 11 28 0 31 -22z m-620 -27 c27 -32 30 -108 6 -143 -65 -94 -218 12 -173 119 25 61 122 75 167 24z m-503 -17 c2 -7 6 -127 7 -266 l3 -252 -28 0 c-32 0 -46 24 -29 51 8 13 12 92 12 249 0 200 2 230 15 230 9 0 18 -6 20 -12z m993 -73 c2 -27 1 -59 -3 -72 l-6 -24 -47 28 c-40 24 -58 28 -122 28 -63 0 -84 -5 -135 -30 -33 -16 -64 -32 -69 -34 -5 -2 -6 9 -2 25 21 86 78 116 241 124 66 4 125 6 130 5 6 -1 11 -23 13 -50z m144 -109 c-4 -23 -7 -89 -6 -148 1 -85 -2 -108 -14 -113 -29 -11 -45 16 -36 65 4 25 8 88 9 140 2 128 0 122 30 108 23 -10 24 -15 17 -52z m96 32 c19 -19 14 -73 -8 -93 -20 -18 -20 -17 -20 12 0 17 -3 45 -6 62 -7 33 10 43 34 19z m98 -69 c-3 -17 -6 -62 -6 -100 0 -38 -4 -69 -8 -69 -8 0 -32 101 -32 136 0 23 27 64 42 64 6 0 8 -12 4 -31z m186 -58 c57 -21 114 -41 128 -44 l25 -4 -26 -2 c-36 -1 -44 -15 -59 -93 -13 -63 -12 -69 5 -88 24 -26 11 -37 -55 -45 -54 -7 -90 -21 -90 -34 0 -5 7 -17 16 -25 14 -15 14 -16 -4 -16 -10 0 -29 12 -43 26 -23 24 -24 32 -27 195 -4 150 -3 169 12 169 9 0 62 -18 118 -39z m218 -52 c0 -61 -61 -169 -96 -169 -20 0 -18 12 11 51 48 66 58 91 47 110 -8 13 -8 19 1 22 25 11 37 6 37 -14z m-492 -45 c-4 -35 -32 -39 -36 -6 -4 27 17 57 30 44 5 -5 8 -22 6 -38z m-1363 -198 c0 -36 -26 -56 -49 -37 -31 26 -11 75 29 69 15 -2 20 -11 20 -32z m182 -20 c175 -82 282 -198 235 -256 l-19 -24 -49 36 c-27 20 -76 64 -109 98 -33 34 -86 82 -118 107 -31 24 -55 49 -52 54 11 16 58 10 112 -15z m1608 -23 c-18 -12 -55 -18 -55 -8 0 2 12 11 27 19 33 17 54 9 28 -11z m-518 -110 c5 -16 7 -102 6 -193 -1 -128 -5 -165 -15 -165 -10 0 -15 43 -21 180 -4 98 -5 185 -3 192 9 22 25 15 33 -14z m108 -73 c6 -48 4 -66 -9 -85 -26 -40 -36 -29 -36 41 0 110 33 143 45 44z m-198 -41 c7 -14 9 -42 6 -66 l-5 -41 -47 34 c-26 18 -58 37 -71 42 -22 8 -20 11 31 35 63 29 70 29 86 -4z m-327 -34 c0 -3 -5 -14 -12 -25 -19 -30 -3 -35 62 -15 58 18 61 18 101 -1 80 -36 117 -70 154 -145 19 -39 35 -82 35 -94 0 -28 -24 -55 -50 -55 -10 0 -56 -9 -102 -20 -46 -11 -97 -20 -115 -20 l-31 0 20 53 c45 116 -16 247 -115 247 l-27 0 20 40 c13 26 27 40 40 40 11 0 20 -2 20 -5z m559 -97 c53 -12 73 -32 22 -22 -16 4 -32 1 -35 -5 -10 -16 -41 -14 -56 4 -12 14 -6 35 10 35 5 0 31 -5 59 -12z m-579 -46 c48 -49 53 -155 7 -187 -34 -24 -82 -19 -106 10 -41 53 -38 123 6 175 31 38 57 38 93 2z m636 -345 c0 -216 -3 -310 -12 -332 -7 -16 -9 -38 -4 -50 10 -28 -5 -65 -28 -65 -27 0 -85 41 -99 71 -8 17 -10 53 -6 112 l6 87 47 30 c26 16 52 30 57 30 32 0 30 82 -3 137 l-25 43 20 27 c24 29 26 59 10 134 -13 59 1 113 24 90 9 -9 12 -93 13 -314z m-96 235 c0 -24 -28 -62 -46 -62 -16 0 -19 33 -4 61 14 24 50 25 50 1z m-1143 -122 c4 -25 10 -30 34 -30 16 0 32 7 38 18 7 13 12 14 22 5 26 -26 2 -40 -78 -45 -43 -3 -85 -7 -93 -9 -11 -3 -16 5 -18 28 -4 35 25 63 65 63 18 0 25 -7 30 -30z m1153 11 c0 -12 -29 -41 -41 -41 -13 0 -11 24 3 38 14 14 38 16 38 3z m-190 -5 c0 -17 -313 -80 -348 -71 -43 11 -10 21 143 44 76 12 141 24 144 26 6 6 61 7 61 1z m-1123 -47 c15 -29 1 -48 -22 -29 -18 15 -21 64 -2 58 6 -3 17 -15 24 -29z m607 -4 c14 -14 34 -25 44 -25 22 0 53 -32 76 -77 32 -63 83 -66 237 -14 86 28 149 44 149 36 0 -11 -45 -123 -58 -145 -23 -38 -84 -100 -112 -115 -35 -18 -112 -28 -149 -20 -17 4 -53 24 -80 45 -65 51 -106 135 -124 253 -8 48 -13 87 -11 87 2 0 14 -11 28 -25z m680 -63 c11 -40 2 -51 -24 -27 -20 18 -26 46 -13 59 13 12 28 -1 37 -32z m-994 -4 c47 -33 71 -68 77 -118 6 -40 4 -43 -13 -36 -71 29 -162 56 -189 56 -63 0 -132 -69 -116 -114 10 -26 135 -80 224 -97 88 -16 87 -16 87 -42 0 -33 -6 -36 -48 -21 -20 7 -55 14 -77 14 -22 0 -58 7 -80 15 -25 9 -43 11 -49 5 -15 -15 72 -48 154 -60 41 -6 76 -12 78 -15 10 -10 -11 -60 -37 -85 -56 -56 -161 -60 -208 -8 -48 55 -66 99 -72 182 -12 168 -8 227 19 281 l25 50 47 -3 c25 -2 49 2 53 8 12 19 90 11 125 -12z m913 -24 c-9 -201 -17 -306 -24 -289 -4 11 -8 75 -8 143 -1 71 -6 132 -12 144 -9 18 -8 24 7 35 28 20 39 10 37 -33z m-987 -139 c36 -14 84 -25 105 -25 43 0 58 -15 37 -36 -16 -16 -74 -8 -195 28 -77 22 -88 33 -50 48 31 12 29 13 103 -15z m912 -180 c2 -26 -2 -53 -7 -58 -8 -8 -11 -2 -11 20 0 17 -3 45 -7 63 -5 25 -3 32 8 28 9 -3 15 -22 17 -53z m628 -56 c160 -13 665 2 767 23 57 12 60 12 79 -11 17 -22 17 -26 4 -40 -20 -19 -74 -18 -114 3 -53 27 -90 21 -113 -18 -11 -19 -28 -37 -37 -41 -9 -4 -149 -9 -309 -12 -233 -5 -293 -9 -293 -19 0 -21 58 -46 129 -55 96 -12 531 7 621 27 103 22 105 22 105 -1 0 -16 -6 -19 -30 -17 -17 1 -104 -9 -195 -22 -91 -14 -208 -28 -260 -31 -124 -8 -373 7 -393 23 -13 11 -13 19 -1 65 16 63 5 80 -29 43 -29 -31 -33 -32 -40 -7 -3 13 -17 21 -46 25 -22 3 -59 9 -81 12 -49 7 -90 38 -90 68 0 12 2 25 5 27 2 3 44 -3 92 -13 49 -10 151 -23 229 -29z m-746 12 c-10 -21 -88 -42 -217 -61 -89 -13 -370 -13 -378 0 -3 5 -1 19 5 30 10 19 21 20 203 21 106 0 230 6 277 13 124 19 123 19 110 -3z m180 -52 c0 -20 -15 -26 -25 -9 -9 15 3 43 15 35 5 -3 10 -15 10 -26z m-1343 -81 c-3 -18 -13 -73 -22 -123 -21 -122 -23 -126 -42 -90 -9 17 -18 64 -21 105 -4 71 -3 78 23 108 15 18 36 32 47 32 18 0 20 -5 15 -32z m106 -175 c-3 -115 -7 -210 -9 -212 -2 -2 -22 2 -44 9 -31 10 -43 10 -54 1 -19 -16 -29 1 -16 31 5 13 19 80 30 151 30 182 45 227 74 227 l24 0 -5 -207z m1184 186 c45 -22 49 -31 33 -73 l-9 -26 -24 23 c-12 12 -35 31 -51 42 -19 14 -26 25 -21 38 9 22 19 22 72 -4z m-1110 -82 c-9 -97 -27 -95 -27 2 0 76 1 82 16 70 13 -11 15 -26 11 -72z m981 51 l3 -28 -68 0 c-37 0 -120 -6 -183 -14 -109 -13 -433 -17 -445 -4 -3 3 3 15 13 28 18 22 22 22 227 22 122 -1 250 5 305 12 131 19 144 17 148 -16z m512 16 c31 -6 60 -28 60 -45 0 -24 -134 20 -144 48 -5 12 0 13 24 9 17 -3 44 -9 60 -12z m-179 -24 c17 -10 19 -22 19 -143 0 -197 -22 -307 -82 -407 -18 -30 -39 -55 -47 -55 -8 0 -23 12 -35 28 -16 22 -21 48 -26 132 -3 57 -8 107 -11 110 -3 3 -14 -4 -24 -15 -27 -30 -39 -25 -80 34 -40 59 -51 109 -38 171 14 64 39 53 73 -30 17 -38 43 -82 59 -97 16 -15 37 -40 45 -56 8 -15 22 -34 31 -42 13 -11 19 -11 32 3 15 15 15 24 -5 114 -12 54 -22 123 -22 154 0 54 2 57 38 82 43 30 47 31 73 17z m-1227 -59 c4 -5 2 -31 -4 -58 -5 -26 -12 -65 -15 -85 -7 -42 -41 -71 -56 -47 -13 21 -11 53 6 85 8 16 15 50 15 75 0 25 3 49 6 52 7 7 40 -8 48 -22z m1506 -73 c97 -18 154 -22 367 -22 l252 -1 5 -29 c16 -78 4 -251 -35 -511 -22 -143 -32 -173 -44 -136 -7 24 -27 27 -45 7 -6 -8 -18 -43 -26 -78 -8 -35 -40 -112 -70 -171 -30 -60 -54 -111 -52 -113 11 -10 52 35 89 97 22 39 47 73 54 75 8 3 17 20 20 37 19 95 26 109 42 96 12 -11 18 -9 34 11 52 69 108 392 109 626 0 104 8 124 40 104 28 -18 -9 -425 -57 -620 -32 -134 -93 -292 -110 -286 -7 3 -30 -23 -54 -57 -50 -74 -105 -134 -177 -189 -51 -40 -53 -40 -72 -23 -26 23 -20 45 34 115 61 80 137 249 143 319 6 61 -7 101 -32 101 -21 0 -45 -40 -46 -80 -1 -19 -5 -2 -9 38 -7 77 -23 103 -48 78 -7 -7 -20 -57 -28 -112 -19 -128 -63 -223 -140 -304 -123 -129 -259 -180 -415 -154 -29 5 -36 10 -32 24 3 11 -9 34 -32 59 -43 48 -57 49 -165 21 -41 -11 -80 -20 -87 -20 -9 0 -11 20 -6 79 11 142 -28 263 -111 349 -56 59 -116 88 -221 106 -49 9 -93 20 -98 25 -11 11 126 81 159 81 27 0 105 85 134 147 21 45 27 118 10 128 -21 13 -147 17 -188 6 -85 -23 -147 -110 -84 -119 18 -3 26 4 38 35 20 48 28 53 89 53 73 0 84 -10 62 -55 -14 -29 -22 -36 -37 -31 -11 3 -28 9 -38 12 -13 4 -26 -5 -45 -29 -14 -19 -50 -49 -79 -67 -158 -100 -173 -129 -170 -353 l2 -147 -28 15 c-39 21 -56 36 -76 67 -19 29 -18 34 33 111 40 60 44 77 22 77 -10 0 -37 -19 -59 -42 -23 -23 -44 -39 -48 -35 -4 3 3 15 16 25 l23 19 -23 31 c-23 31 -23 32 -7 83 28 84 19 140 -32 221 -22 34 -43 52 -80 70 -28 12 -51 26 -51 31 0 4 14 20 32 36 26 23 32 37 34 72 1 24 2 50 3 57 1 11 53 12 289 6 201 -4 309 -3 361 5 40 6 76 9 79 7 2 -3 -1 -20 -9 -38 -14 -35 -13 -101 3 -133 6 -11 31 -42 57 -68 l46 -48 0 -102 c0 -91 3 -106 23 -135 30 -41 90 -72 142 -72 32 0 48 7 80 37 36 32 48 37 112 43 81 7 100 22 144 117 51 108 52 261 3 343 -28 45 -34 31 -18 -42 29 -134 7 -274 -55 -343 -36 -40 -73 -52 -100 -32 -18 13 -18 16 9 92 30 86 50 184 60 293 7 67 9 72 31 72 32 0 31 27 -1 42 -36 16 -31 32 8 24 17 -4 84 -16 147 -28z m969 -130 c-1 -125 -3 -146 -11 -118 l-11 35 -13 -40 c-7 -22 -12 -65 -12 -95 l0 -55 18 55 c26 77 26 30 -1 -107 -82 -425 -290 -736 -594 -888 -166 -83 -268 -106 -492 -112 -210 -6 -329 9 -463 58 -85 30 -138 37 -157 18 -15 -15 -59 -4 -67 18 -11 27 10 37 74 34 79 -3 148 20 202 69 41 36 42 39 26 56 -15 15 -24 16 -63 7 -44 -10 -46 -9 -43 11 3 18 9 21 44 18 30 -1 46 3 59 18 20 22 91 28 97 9 2 -6 1 -36 -2 -66 -6 -56 -22 -77 -52 -67 -9 3 -31 -2 -48 -11 -23 -12 -30 -22 -28 -38 4 -30 36 -42 156 -62 129 -22 404 -17 497 9 190 52 319 130 455 275 55 58 107 117 116 130 34 48 124 242 124 266 0 14 11 58 25 98 38 108 66 283 72 457 4 97 10 158 17 162 6 4 26 8 44 8 l32 0 -1 -152z m-2579 -147 c0 -6 -10 -17 -21 -25 -38 -26 -63 -77 -63 -131 0 -107 93 -211 182 -203 27 2 38 -1 40 -13 2 -12 -8 -18 -40 -24 -114 -21 -175 2 -208 79 -10 23 -25 88 -34 146 -9 58 -19 115 -22 127 -4 20 -1 22 23 18 17 -3 45 3 68 14 44 21 75 26 75 12z m131 -36 c47 -25 86 -104 62 -128 -3 -4 -29 17 -57 47 -28 29 -57 55 -65 58 -19 6 -7 38 14 38 9 0 29 -7 46 -15z m-87 -86 c31 -36 26 -49 -18 -49 -37 0 -56 15 -56 45 0 46 38 48 74 4z m118 -102 c11 -23 33 -78 48 -122 16 -44 31 -89 35 -100 17 -50 -37 35 -64 100 -59 141 -72 225 -19 122z m-57 -39 c4 -21 5 -42 2 -44 -11 -11 -76 26 -82 46 -6 18 -1 28 21 46 26 20 30 21 41 8 6 -9 15 -34 18 -56z m565 -93 c66 -35 135 -140 160 -242 21 -89 16 -229 -10 -296 -12 -32 -28 -61 -36 -64 -18 -7 -164 75 -164 92 0 8 5 17 11 20 5 4 14 18 20 32 19 51 -45 117 -92 93 -26 -14 -24 -34 6 -54 15 -10 22 -22 19 -31 -8 -19 -38 -19 -53 -1 -16 19 -33 234 -29 361 l3 100 30 6 c38 9 102 1 135 -16z m1706 -33 c-12 -12 -18 8 -10 35 l8 28 4 -28 c2 -16 1 -31 -2 -35z m-1506 -42 c26 -37 70 -142 70 -169 0 -10 -7 -22 -16 -25 -20 -8 -18 -11 -34 49 -14 52 -44 117 -81 174 l-22 33 31 -16 c17 -9 40 -29 52 -46z m1074 -161 c-10 -23 -19 -38 -21 -32 -5 14 25 88 33 81 2 -3 -3 -25 -12 -49z m-1504 -113 l0 -95 -82 -49 c-191 -114 -288 -159 -288 -134 0 9 36 32 198 130 83 50 120 78 114 84 -7 7 -22 3 -47 -12 -20 -12 -39 -19 -42 -16 -4 3 -9 44 -11 91 l-5 85 38 -16 c40 -17 86 -12 106 12 6 8 13 14 15 14 2 0 4 -42 4 -94z m500 -11 c0 -35 -24 -55 -34 -29 -8 20 -8 59 0 67 14 14 34 -8 34 -38z m921 -64 c-19 -37 -86 -99 -96 -90 -2 3 20 36 50 73 30 38 56 74 56 80 1 6 3 3 6 -6 2 -9 -5 -35 -16 -57z m-1346 -111 c3 -5 51 -37 106 -71 55 -34 98 -66 96 -72 -2 -6 -21 -20 -42 -31 -52 -27 -144 -26 -205 1 -50 22 -113 79 -107 97 5 16 109 85 129 86 9 0 20 -4 23 -10z m1315 -23 c0 -26 -71 -73 -91 -61 -6 3 5 17 25 30 20 14 36 29 36 34 0 6 7 10 15 10 8 0 15 -6 15 -13z"/>
+              <path d="M2937 6594 c-11 -11 3 -24 18 -18 8 4 12 10 9 15 -6 11 -18 12 -27 3z"/>
+              <path d="M3900 6018 c-61 -23 -84 -78 -32 -78 34 0 68 22 75 49 7 28 -12 41 -43 29z"/>
+              <path d="M4880 6233 c-5 -16 -16 -40 -23 -54 -12 -22 -12 -33 3 -81 9 -31 32 -78 51 -105 58 -86 249 -281 308 -314 29 -17 83 -52 120 -79 36 -26 111 -72 166 -102 55 -30 125 -71 155 -90 84 -53 396 -213 473 -242 131 -49 318 -72 368 -46 23 13 49 61 49 93 0 24 -103 161 -189 251 -52 54 -168 146 -185 146 -6 0 -51 27 -101 60 -60 40 -100 60 -120 60 -70 0 -181 -94 -246 -207 -25 -44 -34 -52 -45 -42 -23 19 -16 49 27 121 23 38 39 72 35 75 -11 11 -53 -37 -86 -98 -17 -32 -33 -59 -36 -59 -8 0 -98 48 -116 62 -16 12 -15 19 17 103 19 50 42 120 51 157 14 60 14 69 0 96 -22 42 -76 72 -135 77 l-51 4 -9 -37 c-5 -20 -14 -88 -20 -151 -11 -116 -21 -145 -42 -124 -8 8 -8 25 0 63 27 124 6 276 -48 355 -39 57 -80 81 -153 89 -87 10 -108 16 -108 32 0 10 -14 14 -50 14 -46 0 -51 -2 -60 -27z"/>
+              <path d="M4928 4595 c-9 -16 -56 -166 -72 -230 -21 -83 -42 -211 -56 -335 -14 -122 -28 -600 -18 -600 9 0 15 58 33 323 23 318 58 568 110 769 15 55 16 95 3 73z"/>
+              <path d="M5146 4521 c-10 -16 -36 -125 -36 -151 1 -24 1 -24 15 -6 8 11 15 34 15 50 1 17 7 42 15 56 8 14 14 33 15 43 0 18 -15 23 -24 8z"/>
+              <path d="M5388 4502 c-10 -2 -18 -12 -18 -23 0 -11 -10 -23 -24 -28 -30 -12 -54 -88 -136 -425 -85 -350 -109 -503 -133 -819 -11 -137 -8 -182 8 -165 2 2 11 75 20 163 31 318 74 570 137 808 25 97 34 117 49 117 16 0 19 8 19 52 0 28 3 48 7 44 10 -10 53 121 46 140 -3 8 -1 20 4 27 10 12 45 109 40 112 -1 1 -10 0 -19 -3z"/>
+              <path d="M5196 4482 c-3 -5 -8 -28 -12 -50 -5 -34 -4 -42 9 -42 17 0 40 50 35 76 -3 20 -23 30 -32 16z"/>
+              <path d="M5251 4439 c-28 -49 -41 -149 -20 -149 15 0 59 120 59 158 0 36 -16 32 -39 -9z"/>
+              <path d="M5101 4001 c-27 -53 -58 -167 -70 -260 -20 -150 -32 -394 -21 -405 19 -19 27 11 34 122 7 124 17 181 62 389 19 83 34 161 34 172 0 33 -18 25 -39 -18z"/>
+              <path d="M4996 3189 c-3 -17 -6 -50 -6 -73 l1 -41 19 24 c20 23 26 73 14 105 -10 25 -21 19 -28 -15z"/>
+              <path d="M4926 3115 c-8 -21 -6 -92 3 -125 7 -23 8 -21 14 15 9 54 8 97 -2 113 -7 11 -10 10 -15 -3z"/>
+              <path d="M4986 3023 c-8 -50 -8 -427 0 -486 16 -112 21 -6 13 263 0 14 3 78 7 143 4 76 3 117 -3 117 -6 0 -13 -17 -17 -37z"/>
+              <path d="M5070 2995 c0 -5 -5 -37 -10 -70 -11 -67 -4 -130 12 -102 15 27 22 142 10 163 -6 10 -12 15 -12 9z"/>
+              <path d="M4923 2784 c-3 -8 -3 -39 1 -69 6 -53 -6 -85 -17 -44 -8 30 -30 19 -44 -22 -9 -25 -11 -100 -7 -274 6 -310 11 -372 29 -354 10 11 15 77 19 279 2 146 5 267 6 270 0 3 7 -3 15 -14 13 -17 14 -16 19 15 3 19 7 78 8 132 2 74 0 97 -10 97 -7 0 -15 -7 -19 -16z m7 -185 c0 -10 -4 -19 -10 -19 -5 0 -10 12 -10 26 0 14 4 23 10 19 6 -3 10 -15 10 -26z"/>
+              <path d="M5046 2753 c-2 -10 -8 -157 -11 -328 -7 -293 3 -517 23 -537 4 -4 7 193 8 438 1 397 -3 484 -20 427z"/>
+              <path d="M4386 2713 c-9 -34 -18 -551 -10 -594 l8 -44 8 50 c13 91 22 605 10 605 -6 0 -13 -8 -16 -17z"/>
+              <path d="M4792 2703 c-20 -50 -24 -155 -13 -328 17 -253 23 -306 34 -302 16 5 16 649 1 654 -6 2 -16 -9 -22 -24z"/>
+              <path d="M3253 4193 c-15 -22 -18 -47 -17 -133 1 -115 16 -185 40 -194 14 -5 15 1 7 56 -10 81 -10 235 1 271 11 36 -8 36 -31 0z"/>
+              <path d="M4234 3278 c-3 -5 -7 -46 -7 -91 -2 -66 2 -89 19 -117 19 -33 24 -35 70 -35 l49 0 1 108 c0 73 -4 111 -12 118 -17 14 -113 28 -120 17z"/>
+              <path d="M3240 1370 c0 -5 -18 -21 -40 -35 -48 -30 -50 -49 -9 -70 73 -39 146 38 89 95 -21 21 -40 26 -40 10z"/>
+              <path d="M4761 1046 c-7 -8 -11 -27 -9 -43 4 -38 35 -43 48 -7 19 49 -10 85 -39 50z"/>
+              <path d="M4851 1036 c-17 -20 -10 -66 11 -80 23 -14 29 -6 31 45 2 47 -18 64 -42 35z"/>
+              <path d="M4920 1008 c0 -22 17 -41 29 -34 19 12 13 46 -9 46 -11 0 -20 -6 -20 -12z"/>
+              <path d="M4423 757 c-12 -7 -35 -31 -50 -55 -32 -47 -93 -101 -172 -152 -55 -34 -65 -62 -31 -80 16 -8 31 -5 77 19 151 76 254 188 231 252 -11 32 -22 35 -55 16z"/>
+              <path d="M4783 488 c-17 -21 -26 -58 -14 -58 18 0 45 50 34 61 -6 6 -13 5 -20 -3z"/>
+              <path d="M3043 9134 c-15 -17 -32 -24 -57 -24 -41 0 -52 -26 -13 -32 15 -2 23 -11 25 -28 6 -52 13 -70 27 -70 10 0 15 10 15 31 0 22 9 40 30 59 34 32 37 50 12 73 -16 14 -19 14 -39 -9z"/>
+              </g>
+              </svg>
+            Saxophone
+          </a>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="40.000000pt" height="20.000000pt"
+              viewBox="0 0 1276.000000 1280.000000" preserveAspectRatio="xMidYMid meet">
+              
+              <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)" fill="#4caf50" stroke="none">
+                <path
+                  d="M6085 12793 c-780 -45 -1421 -185 -2085 -453 -1172 -474 -2173 -1282 -2892 -2335 -545 -798 -906 -1728 -1043 -2689 -48 -338 -59 -519 -59 -921 0 -396 11 -567 60 -905 262 -1846 1318 -3487 2892 -4493 878 -561 1843 -885 2922 -979 218 -19 821 -16 1045 5 438 42 832 116 1215 227 1708 494 3133 1684 3930 3280 224 450 349 786 495 1340 145 548 189 888 189 1460 1 415 -22 698 -90 1105 -226 1363 -858 2582 -1836 3540 -774 760 -1678 1286 -2723 1585 -548 157 -744 190 -1390 230 -137 9 -508 11 -630 3z m522 -43 l63 0 -51 -96 c-51 -95 -52 -96 -62 -225 -6 -76 -6 -134 -1 -139 10 -10 176 -61 181 -56 2 2 11 42 20 89 16 81 20 90 64 133 l47 46 319 -142 c175 -79 365 -166 423 -195 l105 -52 263 21 262 22 73 72 c40 40 75 72 79 72 3 0 174 -81 380 -180 l373 -180 168 0 169 0 96 -57 c296 -173 640 -420 922 -662 113 -97 322 -293 317 -297 -2 -2 -79 25 -173 60 -408 152 -682 286 -817 398 l-48 40 -371 29 -372 30 -83 -83 c-46 -45 -83 -89 -83 -98 1 -8 18 -55 39 -105 l38 -90 71 -3 c40 -2 72 -6 73 -10 0 -4 6 -63 13 -132 7 -69 12 -126 12 -127 -1 -1 -55 30 -120 69 -93 55 -120 68 -127 57 -5 -8 -41 -72 -81 -142 -63 -112 -75 -127 -93 -122 -11 4 -47 9 -80 12 -33 2 -69 8 -80 13 -11 5 -31 10 -45 12 -18 2 -30 14 -43 41 -20 41 -27 42 -108 27 -36 -7 -63 -20 -84 -40 l-30 -29 -45 34 c-43 33 -49 35 -128 35 -89 0 -84 3 -106 -67 -6 -19 -2 -22 44 -28 l50 -7 -45 -56 c-41 -53 -43 -58 -30 -79 21 -31 20 -33 -23 -33 -49 0 -171 31 -256 65 -74 30 -154 34 -206 12 -42 -17 -103 -76 -234 -225 l-99 -114 79 -79 79 -79 57 0 c32 0 92 -10 133 -22 64 -19 76 -26 84 -50 11 -32 24 -33 204 -21 l98 6 117 93 c123 99 123 99 283 126 65 11 66 11 173 -32 98 -39 112 -42 164 -36 154 18 175 19 168 8 -10 -16 21 -82 80 -172 27 -41 72 -130 100 -196 29 -67 75 -155 102 -197 45 -66 52 -83 59 -148 8 -71 9 -74 33 -72 14 2 80 -2 148 -8 68 -6 125 -9 128 -6 3 2 -12 31 -32 63 -27 44 -55 71 -110 108 -61 42 -75 57 -90 95 -9 25 -48 126 -86 224 -39 98 -68 180 -66 181 1 2 23 11 48 20 52 20 51 21 100 -74 16 -30 51 -89 79 -129 49 -74 52 -76 168 -135 l118 -61 5 -86 c8 -130 24 -150 170 -204 l115 -42 85 45 c121 64 122 65 149 115 l25 45 -42 56 -43 56 109 0 110 0 85 -93 c83 -90 88 -94 231 -165 118 -58 146 -76 142 -90 -2 -9 -7 -44 -11 -76 l-7 -59 88 -88 88 -89 -34 -35 c-19 -19 -37 -35 -42 -35 -23 0 -402 177 -515 241 l-132 74 -223 -12 c-123 -7 -242 -15 -264 -18 l-41 -6 4 -92 c2 -51 6 -102 8 -113 3 -15 56 -55 168 -128 132 -86 197 -120 340 -180 154 -64 447 -221 463 -247 3 -5 0 -55 -6 -111 -11 -94 -17 -112 -64 -200 -28 -54 -54 -98 -59 -98 -4 0 -43 24 -87 53 -55 37 -134 110 -262 243 l-183 189 -51 1 c-49 0 -55 3 -207 123 l-157 122 -72 -3 -72 -3 -21 -85 -21 -85 -35 3 c-64 6 -69 10 -70 55 0 23 -3 50 -7 59 -4 9 -135 112 -292 228 -157 116 -284 214 -283 216 0 3 30 38 66 78 63 70 68 74 146 96 45 12 81 26 81 30 0 3 -21 38 -48 76 l-47 69 -54 3 c-49 3 -65 11 -172 85 l-119 81 -115 -28 -115 -28 -72 58 c-39 33 -106 88 -147 122 l-76 64 -97 -6 c-147 -8 -290 14 -423 64 l-110 42 -135 -12 -135 -12 -145 -102 -145 -102 -135 -23 c-123 -20 -141 -26 -205 -66 -38 -24 -104 -53 -145 -65 -70 -20 -77 -25 -115 -76 l-40 -55 -126 6 -125 6 -135 -121 c-86 -78 -136 -131 -141 -148 -4 -15 -23 -99 -44 -188 l-37 -160 -132 -140 c-128 -135 -132 -141 -148 -206 -10 -39 -17 -107 -17 -162 0 -91 2 -101 50 -221 64 -161 146 -325 328 -658 l147 -267 57 -35 c54 -32 67 -35 166 -41 l107 -7 138 -109 c97 -75 147 -108 165 -108 15 0 117 -7 227 -15 110 -8 205 -15 210 -15 6 0 26 -25 45 -56 l34 -56 52 7 52 6 92 -107 93 -106 41 5 c23 3 59 9 82 12 l40 7 26 -179 25 -178 -63 -89 c-35 -49 -97 -118 -137 -153 l-74 -64 29 -167 c15 -93 39 -302 52 -470 25 -302 25 -302 5 -372 -38 -137 -38 -137 -169 -224 l-119 -79 -143 -426 -142 -426 44 -217 44 -217 -28 -187 -28 -188 -88 -115 -88 -116 -7 -114 c-5 -77 -15 -137 -30 -182 l-23 -67 88 -26 88 -26 100 45 99 45 124 0 124 0 208 -67 209 -67 131 66 c73 37 230 125 349 196 l217 129 107 11 c59 7 111 17 115 23 3 6 12 84 20 172 l13 161 57 66 58 67 98 12 c157 20 163 22 262 105 l92 76 78 0 78 0 279 250 c314 282 288 245 319 450 9 58 26 153 39 212 23 106 24 108 131 266 l107 159 67 7 c36 3 83 6 105 6 24 0 81 19 155 51 98 44 150 77 341 217 l226 165 74 126 c133 227 180 309 180 318 0 5 -34 21 -75 36 l-75 26 -38 -40 -37 -40 -93 75 c-117 95 -111 91 -120 65 -6 -14 -12 21 -20 111 -8 88 -9 138 -2 150 23 44 12 74 -53 142 -73 75 -113 151 -182 338 -43 116 -47 137 -61 291 -12 138 -12 177 -1 230 8 43 11 99 6 169 -6 109 -2 444 7 516 l5 41 75 -17 c41 -10 78 -21 81 -24 4 -4 -4 -109 -18 -234 l-25 -227 48 -104 48 -103 0 -177 c0 -268 18 -395 80 -579 l52 -152 121 -153 c66 -83 121 -154 123 -155 1 -2 27 15 57 37 53 41 54 41 143 41 l89 1 285 315 285 315 17 82 c9 45 17 89 18 98 0 18 -61 105 -203 289 -104 134 -110 137 -193 77 -30 -21 -58 -36 -62 -33 -3 4 -11 47 -18 97 -10 75 -20 103 -56 167 -36 63 -48 76 -65 74 -15 -2 -28 6 -39 23 -14 21 -15 40 -10 113 4 48 13 114 19 146 12 59 12 60 75 94 35 19 64 33 66 31 10 -14 110 -299 128 -368 l23 -84 135 -116 c74 -64 207 -185 295 -270 l159 -154 44 -141 c25 -77 59 -211 76 -296 l32 -155 69 -27 70 -26 -3 -199 c-2 -109 -15 -373 -28 -587 -14 -214 -24 -390 -22 -391 2 -1 22 -12 46 -24 23 -12 42 -26 42 -31 0 -31 -108 -393 -166 -556 -243 -687 -588 -1306 -1041 -1872 -939 -1172 -2269 -1974 -3738 -2256 -399 -76 -750 -108 -1190 -108 -460 0 -817 34 -1231 117 l-162 32 -95 99 c-52 55 -105 112 -118 127 -25 29 -40 34 -1434 469 l-260 81 -170 112 c-727 478 -1338 1090 -1818 1821 l-106 161 -52 368 c-51 367 -52 368 -89 434 -21 36 -50 109 -66 160 l-28 94 17 136 c12 99 21 139 33 146 8 6 43 28 77 50 l61 40 -2 55 c-1 30 -5 105 -8 165 l-5 110 105 77 106 78 0 107 0 108 241 315 c132 173 244 319 249 324 6 6 46 -2 102 -19 l93 -27 39 44 c25 27 141 231 301 528 l261 484 144 29 144 29 41 46 c80 91 77 84 65 157 -9 53 -28 100 -98 230 l-87 162 -120 75 -120 75 -3 185 -2 184 -178 95 -177 94 2 244 3 244 40 74 41 74 -40 66 c-38 63 -46 70 -148 127 l-108 61 -24 105 -24 105 17 182 c10 100 14 188 9 196 -12 20 -224 297 -227 297 -2 0 -72 -27 -155 -60 -148 -58 -155 -60 -247 -60 -52 0 -94 2 -94 5 0 11 141 215 242 350 332 445 743 865 1177 1203 185 144 174 139 301 141 85 2 151 -5 290 -30 l181 -32 37 36 c22 21 47 62 60 97 18 46 43 81 101 142 l77 81 83 5 c72 4 91 9 139 38 66 40 192 90 259 103 27 6 181 20 343 32 l295 21 31 30 c17 16 53 56 80 89 48 58 50 59 99 59 69 -1 194 -18 227 -31 15 -6 29 -22 33 -37 3 -14 16 -39 27 -55 16 -22 19 -39 16 -77 -5 -44 -3 -48 12 -40 10 5 62 56 115 112 87 93 105 119 184 268 l88 165 69 7 c38 4 103 10 145 13 l76 6 46 82 47 82 -43 6 -42 6 50 3 c208 12 399 17 505 14 69 -2 153 -4 187 -4z m-6384 -5503 c37 -149 87 -376 111 -503 l44 -231 -8 -219 -8 -219 94 -171 c52 -93 94 -175 94 -182 0 -6 -21 -85 -46 -174 l-46 -163 -11 -300 -10 -301 61 -174 c64 -181 87 -284 156 -696 l32 -192 60 -98 c45 -74 74 -140 120 -276 34 -99 58 -176 53 -171 -14 15 -137 240 -207 380 -346 692 -555 1420 -637 2218 -43 416 -37 982 15 1400 23 178 51 345 59 345 3 0 37 -123 74 -273z" />
+                <path
+                  d="M8225 11360 l10 -130 -85 -97 c-59 -67 -95 -118 -113 -162 -15 -35 -26 -65 -24 -67 4 -5 461 17 466 22 7 6 -39 152 -79 254 -21 52 -43 131 -50 175 -7 44 -16 86 -20 94 -7 13 -78 40 -105 41 -7 0 -7 -42 0 -130z" />
+                <path
+                  d="M9968 3259 l-137 -110 -163 -11 -163 -11 -87 -66 c-85 -64 -88 -68 -118 -146 -30 -77 -36 -84 -136 -173 -106 -95 -138 -112 -206 -112 -42 0 -45 -5 -22 -38 15 -21 13 -25 -45 -90 l-61 -67 0 -82 c0 -83 0 -83 26 -83 33 0 335 30 350 35 6 2 139 146 295 320 156 175 302 338 324 362 37 41 46 45 110 55 69 11 71 11 153 92 45 44 82 85 82 91 0 17 -51 145 -58 145 -4 -1 -69 -50 -144 -111z" />
+              </g>
+            </svg>
+            Voyages
+          </a>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path
+                d="M339.4 346.5a636.5 636.5 0 00-46.7-140.2 8.4 8.4 0 00-7.6-4.8h-21a8.4 8.4 0 00-8 11 662.9 662.9 0 0129 289.7 8.4 8.4 0 008.4 9.5h50.3c4.4 0 8.1-3.6 8.3-8 2.3-52.8-2-105.6-12.7-157.2z"
+                fill="#ff9940" />
+              <g fill="#f5760f">
+                <path
+                  d="M300.7 508.8a8.4 8.4 0 01-2-6.6 662.7 662.7 0 00-29-289.7 8.4 8.4 0 018-11H264a8.4 8.4 0 00-8 11 662.9 662.9 0 0129 289.7 8.4 8.4 0 008.4 9.5H307c-2.4 0-4.7-1-6.3-2.9z" />
+                <path
+                  d="M331.2 312.2l-48.8 9.1c.9 5.6 1.7 11.1 2.4 16.7l50.6-9.5c-1.3-5.5-2.7-10.9-4.2-16.3zM288 369.2l1.1 16.7h57.2a641 641 0 00-2.6-16.7H288z" />
+              </g>
+              <path d="M499.7 157.8A125.9 125.9 0 00276.9 212a8.4 8.4 0 0010.2 9.7L495 171a8.5 8.5 0 004.6-13.3z"
+                fill="#a4d64d" />
+              <path
+                d="M351.1 2.9a8.4 8.4 0 00-7.5-2.8 125.9 125.9 0 00-93 185c7.4 13.4 17 25.2 28.6 35.1a8.4 8.4 0 0013.5-4l60.1-205.5c.8-2.7.2-5.6-1.7-7.8z"
+                fill="#8ec42f" />
+              <g fill="#a4d64d">
+                <path
+                  d="M327 199.3c-15.3-.3-30.3 2.1-44.7 7.2a8.4 8.4 0 00-3.3 13.7l148 154.7a8.5 8.5 0 0013.8-2.6 125.9 125.9 0 00-113.7-173z" />
+                <path d="M293.3 212.1a125.9 125.9 0 00-222.8-54.3A8.5 8.5 0 0075 171l208 50.7a8.4 8.4 0 0010.2-9.7z" />
+              </g>
+              <path
+                d="M293.2 212.5c-.6-2.8-2.6-5-5.3-6a125.9 125.9 0 00-158.5 165.8c2.2 5.5 9.7 7 13.8 2.6l148-154.7c2-2 2.7-5 2-7.7z"
+                fill="#8ec42f" />
+              <path
+                d="M491.7 496.5c-71.3-45-153.8-68.7-238.6-68.7S86 451.6 14.5 496.5A8.4 8.4 0 0019 512h468.3a8.4 8.4 0 004.4-15.5z"
+                fill="#ffd042" />
+              <path
+                d="M35.5 506c-1-3.6.4-7.5 3.6-9.5A447 447 0 01265.4 428l-12.3-.2a447.2 447.2 0 00-238.6 68.7A8.4 8.4 0 0019 512h24.6c-3.8 0-7-2.5-8-6z"
+                fill="#ffc412" />
+              <circle cx="290.8" cy="218.3" r="29.3" fill="#a4a09a" />
+              <path d="M299.2 239.2a29.3 29.3 0 01-24.5-45.4 29.3 29.3 0 1040.7 40.6c-4.7 3-10.2 4.8-16.2 4.8z"
+                fill="#928d86" />
+              <circle cx="316" cy="256" r="29.3" fill="#a4a09a" />
+              <path d="M324.4 281.1a29.3 29.3 0 01-17.1-53.1 29.4 29.4 0 1025.8 51.8c-2.8.9-5.7 1.3-8.7 1.3z"
+                fill="#928d86" />
+              <circle cx="261.5" cy="256" r="29.3" fill="#a4a09a" />
+              <path d="M269.9 277a29.3 29.3 0 01-24.5-45.5A29.3 29.3 0 10286 272c-4.6 3-10.2 4.9-16.1 4.9z"
+                fill="#928d86" />
+              <g fill="#ffb266">
+                <circle cx="274.1" cy="473.9" r="8.4" />
+                <circle cx="378.9" cy="482.3" r="8.4" />
+                <circle cx="328.6" cy="465.6" r="8.4" />
+                <circle cx="223.8" cy="457.2" r="8.4" />
+                <circle cx="202.8" cy="482.3" r="8.4" />
+                <circle cx="144.2" cy="482.3" r="8.4" />
+              </g>
+            </svg>
+            Nature
+          </a>
+          <a href="#"><svg viewBox="0 0 511.4 511.4" width="512" xmlns="http://www.w3.org/2000/svg">
+              <path d="M102.8 145c-47.5 0-86 38.6-86 86v29.3h168.6V145z" fill="#0dca71" />
+              <path d="M432.9 377.8l-43-70.8-95.1 60.2 84 144.2 25.2-15.3a86.2 86.2 0 0028.9-118.3z" fill="#0cba68" />
+              <path d="M121.6 307l-43 70.8a86.2 86.2 0 0028.8 118.3l25.3 15.3 84-144.2z" fill="#0dca71" />
+              <path d="M408.6 145H326v115.3h168.7v-29.2c0-47.5-38.6-86.1-86-86.1z" fill="#0cba68" />
+              <path d="M345.9 90.2A90.3 90.3 0 00255.7 0L245 85.3l10.7 82.1H346V90.2z" fill="#0cba68" />
+              <path d="M255.7 0a90.3 90.3 0 00-90.2 90.2v77.2h90.2z" fill="#0dca71" />
+              <g>
+                <path d="M420 269.3c0-62.4-31.7-117.1-79.2-147.4l-85 147.4z" fill="#ebb65b" />
+                <path d="M255.7 269.3L340.8 122c-24.8-15.8-54-25-85-25L245 160z" fill="#fdd278" />
+                <path d="M91.4 269.3h164.3l-85-147.4a174.3 174.3 0 00-79.3 147.4z" fill="#ffc663" />
+                <path d="M255.7 97c-31.1 0-60.2 9.1-85 25l85 147.3z" fill="#ffe7ab" />
+                <path d="M255.7 269.3L245 384l10.7 57.7c31.1 0 60.3-9.2 85.1-25z" fill="#ebb65b" />
+                <path d="M255.7 269.3l85.1 147.4c47.5-30.2 79.2-85 79.2-147.4z" fill="#fdd278" />
+                <path d="M170.6 416.7c24.9 15.8 54 25 85.1 25V269.3z" fill="#ffc663" />
+                <path d="M255.7 269.3H91.4c0 62.4 31.8 117.2 79.2 147.4z" fill="#ffe7ab" />
+                <path d="M337 269.3L296.4 199h-40.7L245 266.7l10.7 73h40.7z" fill="#ffe5a5" />
+                <path d="M215 198.9l-40.6 70.4 40.7 70.5h40.6V198.9z" fill="#fffaed" />
+              </g>
+            </svg>
+            Animaux
+          </a>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="40.000000pt" height="20.000000pt"
+              viewBox="0 0 1280.000000 640.000000" preserveAspectRatio="xMidYMid meet">
+              <g transform="translate(0.000000,640.000000) scale(0.100000,-0.100000)" fill="#ff5722" stroke="none">
+                <path
+                  d="M3565 5336 c-106 -30 -101 -26 -108 -111 -4 -42 -9 -80 -12 -85 -6 -10 -246 -105 -590 -234 -448 -167 -1052 -415 -1173 -483 -78 -43 -193 -91 -250 -104 -23 -5 -98 -14 -165 -19 -67 -6 -167 -19 -222 -30 -154 -31 -340 -49 -563 -57 l-203 -6 -43 -66 c-59 -91 -60 -95 -26 -130 37 -37 38 -65 3 -150 -25 -62 -27 -78 -31 -256 l-4 -190 -38 -32 c-91 -78 -133 -209 -134 -418 0 -194 11 -396 26 -482 13 -71 14 -74 72 -122 69 -58 130 -129 158 -184 64 -126 534 -211 1384 -250 l92 -4 -6 119 c-6 142 8 256 49 383 112 352 394 622 756 722 90 26 112 28 278 28 165 0 188 -2 278 -27 201 -56 361 -152 504 -302 140 -145 222 -293 274 -492 21 -79 24 -109 23 -279 -1 -127 -6 -214 -16 -263 l-15 -73 3006 7 c1653 4 3007 8 3009 9 1 1 -8 37 -20 81 -19 67 -22 105 -22 259 -1 166 1 187 27 279 117 421 467 736 885 797 119 17 325 7 432 -21 239 -63 453 -205 601 -399 70 -92 154 -267 185 -386 24 -88 27 -119 27 -260 1 -116 -4 -181 -16 -234 -10 -41 -16 -75 -15 -76 2 -1 62 2 133 6 266 16 458 45 525 79 48 24 97 81 127 146 l24 52 -16 157 c-15 152 -15 163 4 284 63 388 50 680 -35 802 -134 193 -526 336 -1429 519 -737 149 -1322 209 -2033 210 -228 0 -226 0 -347 85 -187 131 -1045 607 -1471 815 -383 187 -788 281 -1439 332 -208 17 -1106 16 -1400 0 -121 -7 -314 -19 -430 -27 -302 -22 -286 -22 -341 10 -140 81 -187 94 -269 71z m1885 -333 c6 -37 38 -238 71 -446 32 -209 66 -422 75 -474 9 -52 15 -96 13 -97 -11 -9 -1699 29 -1951 44 -206 13 -417 36 -485 54 -98 26 -198 119 -249 231 -35 75 -36 172 -5 255 17 45 30 61 68 86 83 54 135 80 253 127 341 136 858 230 1460 267 269 16 270 16 511 18 l227 2 12 -67z m630 47 c264 -18 777 -110 1029 -186 186 -56 445 -188 756 -387 211 -134 274 -181 250 -185 -75 -12 -133 -50 -162 -106 -19 -35 -21 -136 -4 -179 l11 -27 -907 2 -906 3 -59 160 c-110 302 -298 878 -298 916 0 6 95 2 290 -11z" />
+                <path
+                  d="M2633 3125 c-223 -40 -410 -141 -568 -306 -132 -138 -213 -283 -262 -467 -22 -83 -26 -119 -26 -247 -1 -169 10 -236 65 -382 87 -230 271 -436 493 -551 85 -44 178 -78 271 -98 107 -23 312 -23 419 1 392 84 699 375 802 761 23 86 26 120 27 254 1 158 -5 199 -46 330 -98 310 -355 567 -668 669 -150 50 -354 64 -507 36z m350 -301 c249 -56 457 -247 543 -499 25 -72 28 -95 28 -220 1 -153 -15 -228 -74 -345 -94 -186 -283 -337 -485 -386 -96 -24 -268 -24 -360 0 -320 84 -544 355 -562 681 -20 359 209 673 558 765 94 24 253 26 352 4z" />
+                <path
+                  d="M2600 2697 c-36 -13 -85 -36 -109 -51 l-44 -28 116 -115 c81 -82 120 -114 131 -110 14 6 16 29 16 167 0 186 6 178 -110 137z" />
+                <path
+                  d="M2920 2561 c0 -139 2 -162 16 -168 11 -4 50 28 130 108 l115 114 -28 22 c-34 28 -138 70 -193 79 l-40 7 0 -162z" />
+                <path
+                  d="M2282 2448 c-28 -36 -92 -191 -92 -225 0 -10 34 -13 165 -13 151 0 165 1 165 18 0 15 -206 232 -221 232 -4 0 -11 -6 -17 -12z" />
+                <path
+                  d="M3222 2351 c-62 -59 -112 -115 -112 -124 0 -15 17 -17 165 -17 131 0 165 3 165 13 0 40 -69 205 -95 227 -7 6 -48 -27 -123 -99z" />
+                <path d="M2781 2332 c-12 -22 11 -62 34 -62 8 0 21 10 29 22 20 28 4 58 -29 58 -13 0 -29 -8 -34 -18z" />
+                <path
+                  d="M2749 2161 c-32 -33 -37 -67 -14 -110 29 -57 104 -64 151 -14 53 57 9 153 -71 153 -27 0 -44 -8 -66 -29z" />
+                <path d="M2570 2125 c-26 -32 13 -81 48 -59 24 16 27 45 6 61 -23 17 -39 16 -54 -2z" />
+                <path d="M3006 2124 c-20 -19 -20 -38 -2 -54 23 -19 61 -8 64 18 7 44 -32 67 -62 36z" />
+                <path
+                  d="M2190 1975 c0 -29 41 -140 72 -194 l31 -53 117 117 c71 71 116 123 113 131 -4 11 -40 14 -169 14 -141 0 -164 -2 -164 -15z" />
+                <path
+                  d="M3110 1972 c0 -9 51 -68 114 -131 l114 -114 31 54 c30 51 71 165 71 195 0 11 -31 14 -165 14 -151 0 -165 -1 -165 -18z" />
+                <path d="M2780 1901 c-7 -15 -5 -24 8 -41 32 -40 85 -4 62 41 -14 25 -56 25 -70 0z" />
+                <path
+                  d="M2562 1697 c-61 -62 -112 -115 -112 -119 0 -18 208 -108 249 -108 7 0 11 54 11 164 0 140 -2 165 -16 170 -9 3 -16 6 -17 6 -1 0 -53 -51 -115 -113z" />
+                <path
+                  d="M2933 1803 c-15 -6 -19 -333 -4 -333 46 0 251 88 251 108 0 9 -223 232 -230 231 -3 0 -11 -3 -17 -6z" />
+                <path
+                  d="M10700 3119 c-390 -84 -696 -376 -797 -759 -31 -117 -41 -292 -24 -411 33 -227 150 -453 318 -609 267 -250 643 -344 993 -249 117 32 283 118 380 196 487 396 518 1128 67 1560 -97 93 -166 140 -290 198 -137 64 -235 86 -407 91 -120 3 -162 0 -240 -17z m445 -313 c238 -81 409 -258 486 -506 30 -96 33 -289 5 -388 -110 -400 -513 -637 -911 -536 -149 38 -313 147 -402 267 -176 238 -203 533 -71 797 34 69 60 103 138 180 77 78 111 104 181 139 129 65 207 81 364 77 109 -3 143 -7 210 -30z" />
+                <path
+                  d="M10703 2700 c-54 -19 -153 -71 -153 -80 0 -3 51 -57 114 -119 80 -80 119 -112 130 -108 14 5 16 29 16 167 l0 160 -27 -1 c-16 0 -52 -9 -80 -19z" />
+                <path
+                  d="M11020 2561 c0 -139 2 -162 16 -168 22 -8 247 216 234 232 -17 20 -163 84 -207 91 l-43 7 0 -162z" />
+                <path
+                  d="M10366 2424 c-29 -44 -76 -165 -76 -194 0 -19 7 -20 165 -20 126 0 165 3 165 13 0 7 -51 63 -114 126 l-114 114 -26 -39z" />
+                <path
+                  d="M11313 2348 c-61 -62 -109 -119 -106 -125 6 -15 333 -19 333 -4 0 45 -88 241 -108 241 -4 0 -57 -51 -119 -112z" />
+                <path
+                  d="M10882 2338 c-17 -17 -15 -32 7 -52 16 -14 23 -15 41 -6 31 17 24 64 -10 68 -14 2 -31 -3 -38 -10z" />
+                <path d="M10846 2159 c-68 -81 17 -194 110 -144 89 48 56 175 -46 175 -30 0 -44 -6 -64 -31z" />
+                <path d="M10670 2126 c-19 -23 -8 -61 18 -64 44 -7 67 32 36 62 -19 20 -38 20 -54 2z" />
+                <path
+                  d="M11106 2127 c-21 -16 -18 -45 7 -61 37 -23 77 35 41 61 -10 7 -21 13 -24 13 -3 0 -14 -6 -24 -13z" />
+                <path
+                  d="M10290 1970 c0 -29 43 -141 74 -195 l28 -48 116 116 c81 81 113 120 109 131 -6 14 -29 16 -167 16 -152 0 -160 -1 -160 -20z" />
+                <path
+                  d="M11207 1978 c-3 -7 47 -66 111 -130 l116 -118 27 43 c27 44 79 177 79 203 0 12 -28 14 -164 14 -122 0 -166 -3 -169 -12z" />
+                <path d="M10881 1901 c-14 -25 -5 -48 20 -56 27 -9 51 13 47 44 -4 34 -51 43 -67 12z" />
+                <path
+                  d="M10662 1697 c-61 -62 -112 -115 -112 -119 0 -20 201 -108 247 -108 10 0 13 34 13 164 0 140 -2 165 -16 170 -9 3 -16 6 -17 6 -1 0 -53 -51 -115 -113z" />
+                <path
+                  d="M11033 1803 c-10 -3 -13 -47 -13 -169 0 -90 4 -164 8 -164 36 0 186 61 239 98 16 10 -216 242 -234 235z" />
+              </g>
+            </svg>
+            Voiture
+          </a>
+          <a href="#">
+            <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M424 101l-8 25v6l16 21c3 4 0 9-4 9h-27l-5 2-15 22c-3 4-9 3-10-2l-8-25-4-4-25-8c-5-1-6-7-2-10l22-15 2-5V90c0-4 5-7 9-4l21 16h6l25-8c4-2 9 3 7 7z"
+                fill="#fe9901" />
+              <path d="M428 162h-27l-5 2-15 22c-3 4-9 3-10-2l-5-15 2-2 16-23 5-2h28c2 0 4-1 5-3l10 14c3 4 0 9-4 9z"
+                fill="#fb8801" />
+              <circle cx="438.8" cy="403.5" fill="#60b7ff" r="23.4" />
+              <path d="M462 403a23 23 0 11-46-2c4 4 9 7 16 7 12 0 22-10 23-21 4 4 7 10 7 16z" fill="#26a6fe" />
+              <path d="M24 511l321-137-101-100-100-101L7 494c-4 11 6 21 17 17z" fill="#fe7d43" />
+              <path d="M345 374L24 511c-11 4-21-6-17-17 3 1 5 0 8-1l315-134z" fill="#fd6930" />
+              <g fill="#7acaa6">
+                <path
+                  d="M47 401l95 60-54 22-60-37zM84 315l162 101-54 23-128-80zM120 229l210 131 15 14-49 21-195-122z" />
+              </g>
+              <g fill="#57be92">
+                <path d="M142 461l-54 22-20-12 54-23zM246 416l-54 23-20-13 54-23zM345 374l-49 21-20-13 53-23 1 1z" />
+              </g>
+              <path
+                d="M136 4c-6 11-18 33-38 41-3 1-3 5 0 7 20 8 32 29 38 41 1 2 4 2 6 0 5-12 18-33 37-41 3-2 3-6 0-7-19-8-32-30-37-41-2-2-5-2-6 0z"
+                fill="#fe9901" />
+              <path d="M179 52c-19 8-32 29-37 41-2 2-5 2-6 0l-9-15a87 87 0 0139-41l13 8c3 1 3 5 0 7z" fill="#fb8801" />
+              <path
+                d="M345 426c-4 9-14 26-30 33-2 1-2 4 0 5 16 7 26 24 30 33 1 2 4 2 5 0 5-9 15-26 31-33 2-1 2-4 0-5-16-7-26-24-31-33-1-2-4-2-5 0z"
+                fill="#fe9901" />
+              <path d="M381 464c-16 7-26 24-31 33-1 2-4 2-5 0l-7-12a70 70 0 0132-33l11 7c2 1 2 4 0 5z" fill="#fb8801" />
+              <g fill="#acacac">
+                <path
+                  d="M504 288a52 52 0 00-37-19c-7 0-13 1-20 3-13-8-30-8-50-1a8 8 0 106 14c7-2 17-5 28-3l-3 3c-10 10-13 27-5 38a26 26 0 0021 11c7 0 14-4 18-9l5-12c2-10-1-20-6-28h5c10 0 19 5 26 13a8 8 0 1012-10zm-52 23c-1 4-4 7-8 7s-7-2-8-4c-4-5-2-13 3-18l7-6c5 6 7 13 6 21zM443 80c11 9 28 8 39-2l2-2c2 10-2 21-5 28a8 8 0 1014 6c8-18 9-36 3-50 3-6 4-12 5-19 1-14-5-28-15-39a8 8 0 10-11 11 37 37 0 0110 33c-8-7-18-10-28-9-5 0-9 2-12 4-6 3-10 10-10 18-1 8 2 16 8 21zm7-20c0-2 0-5 3-6 4-3 9-2 13-1 1 0 13 6 12 7l-6 7c-6 4-14 5-19 1-2-2-3-5-3-8zM289 43c-4 1-6 6-5 10 11 30 2 84-18 109a8 8 0 1012 10c11-14 20-36 24-60s3-48-3-65c-2-4-6-6-10-4zM460 231a8 8 0 105-15c-17-6-41-7-65-3s-46 13-60 25a8 8 0 1010 11c25-20 79-29 110-18z" />
+              </g>
+              <circle cx="345.3" cy="31.1" fill="#60b7ff" r="23.4" />
+              <path d="M369 31a23 23 0 11-47 0v-1c4 3 8 5 13 5 13 0 23-10 24-23 6 4 10 11 10 19z" fill="#26a6fe" />
+              <circle cx="227.5" cy="94.5" fill="#60b7ff" r="23.4" />
+              <path d="M251 94a23 23 0 11-47 0c4 2 8 4 13 4 13 0 23-10 23-23 7 4 11 11 11 19z" fill="#26a6fe" />
+              <path d="M164 136l217 217c3 3 3 8 0 11l-21 21c-3 3-8 3-11 0L132 168c-3-3-3-8 0-11l21-21c3-3 8-3 11 0z"
+                fill="#f3eae6" />
+              <path d="M381 364l-21 20c-3 4-8 4-11 0l-15-14c4 3 9 3 12 0l20-20c3-4 3-9 0-12l15 15c3 3 3 8 0 11z"
+                fill="#e1d3ce" />
+            </svg>
+            Dance
+          </a>
+        </div>
+      </div>
+      <a href="https://www.linkedin.com/in/ayoub-bayed-2b3246140/" class="follow-me" target="_blank">
+        <span class="follow-text">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          Follow me on Linkedin
+        </span>
+        <span class="developer">
+          <img src="./ressources/photoprofil.jpg" />
+          Ayoubayed
+        </span>
+      </a>
+    </div>
+    <div class="main">
+      <div class="search-bar">
+        <input type="text" placeholder="Rechercher" />
+        <button class="right-side-button" @click="rightSide = !rightSide">
+          <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"
+            stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="main-container">
+        <div class="profile">
+          <div class="profile-avatar">
+            <img src="./ressources/photoprofil.jpg" alt="" class="profile-img">
+            <div class="profile-name">Ayoub Bayed</div>
+          </div>
+          <img src="https://www.openmindt.com/wp-content/uploads/2019/07/Openmind-Technologies-Bug-Informatique.jpg"
+            alt="" class="profile-cover">
+          <div class="profile-menu">
+            <a id ="Journal" class="profile-menu-link active">Journal</a>
             
-                <div class="collapsible-header acco-clr3" id="heading_materiel" data-toggle="collapse" data-target="#collapse_materiel" aria-expanded="true" aria-controls="collapse_materiel">
-                    <span class="icon">
-                        <i class="fa fa-pencil-alt" aria-hidden="true"></i>
-                    </span>
-                    <p>
-                        <strong>Bac S</strong> - Lycée Immaculée Conception – Villeurbanne Septembre 2009 à Juillet 2011                    </p>
+            <a id="Formations" class="profile-menu-link">Formations</a>
+            <a id="Langues" class="profile-menu-link">Langues</a>
+            <a id="Compétences" class="profile-menu-link">Compétences</a>
+          </div>
+        </div>
+        <div id="timeline" class="timeline">
+          <div class="timeline-left">
+            <div class="intro box">
+              <div class="intro-title">
+                Introduction
+                <button class="intro-menu"></button>
+              </div>
+              <div class="info">
+                <div class="info-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 503.889 503.889" fill="currentColor">
+                    <path
+                      d="M453.727 114.266H345.151V70.515c0-20.832-16.948-37.779-37.78-37.779H196.517c-20.832 0-37.78 16.947-37.78 37.779v43.751H50.162C22.502 114.266 0 136.769 0 164.428v256.563c0 27.659 22.502 50.161 50.162 50.161h403.565c27.659 0 50.162-22.502 50.162-50.161V164.428c0-27.659-22.503-50.162-50.162-50.162zm-262.99-43.751a5.786 5.786 0 015.78-5.779h110.854a5.786 5.786 0 015.78 5.779v43.751H190.737zM32 164.428c0-10.015 8.147-18.162 18.162-18.162h403.565c10.014 0 18.162 8.147 18.162 18.162v23.681c0 22.212-14.894 42.061-36.22 48.27l-167.345 48.723a58.482 58.482 0 01-32.76 0L68.22 236.378C46.894 230.169 32 210.321 32 188.109zm421.727 274.725H50.162c-10.014 0-18.162-8.147-18.162-18.161V253.258c8.063 6.232 17.254 10.927 27.274 13.845 184.859 53.822 175.358 52.341 192.67 52.341 17.541 0 7.595 1.544 192.67-52.341 10.021-2.918 19.212-7.613 27.274-13.845v167.733c.001 10.014-8.147 18.162-18.161 18.162z" />
+                  </svg>
+                  Stagiaire à <a href="#">Code42</a>
                 </div>
-                <div id="collapse_materiel" class="collapse" aria-labelledby="heading_materiel" data-parent="#accordionSolution">
-                    <div class="accordion-body">
-                        <span>Obtention du Baccalauréat Général Scientifique Option SVT spécialité Physique / Chimie.</span>
-                    </div>
+                <div class="info-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+                    <path d="M9 22V12h6v10" />
+                  </svg>
+                  Vie à <a href="#">Nantes, France</a>
                 </div>
-            </div>
-        </section>
-
-        <section id="portfolio" class="portfolio-section cadre mb-30 clearfix">
-            <div class="section-titre">
-                <h2>
-                    <i class="fa fa-briefcase" aria-hidden="true"></i>
-                    Portfolio                </h2>
-                <p>Quelques exemples du travail que je suis capable de fournir dans le domaine du développement web.</p>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4 no-padding">
-                        <div class="portfolio-content">
-                            <figure>
-                                <img src="public/img/portfolio_hexatio.png" alt="Hexatio" class="img-fluid">
-                            </figure>
-                            <div class="entry-content flex flex-column align-items-center justify-content-center align-middle">
-                                <h2 class="titre">Hexatio</h2>
-                                <hr>
-                                <p class="flex flex-wrap justify-content-center">Réalisation du site vitrine hexatio.fr pour la société Hexatio</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 no-padding">
-                        <div class="portfolio-content">
-                            <figure>
-                                <img src="public/img/portfolio_netgolf.png" alt="Netgolf" class="img-fluid">
-                            </figure>
-                            <div class="entry-content flex flex-column align-items-center justify-content-center align-middle">
-                                <h2 class="titre">Netgolf</h2>
-                                <hr>
-                                <p class="flex flex-wrap justify-content-center">Réalisation du site vitrine netgolf.fr pour la société 2GT</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="info-item">
+                  <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                    <path data-name="layer5" fill="#c0cce3" d="M54 22l-8-12H18l-8 12-2 2h48l-2-2z"></path>
+                    <path data-name="layer4" d="M2 40v5a3 3 0 0 0 3 3h54a3 3 0 0 0 3-3v-5z" fill="#96abd1"></path>
+                    <path data-name="layer3" fill="#7490c2" d="M62 32v-2l-6-6H8l-6 6v2h10l8 8h24l8-8h10z"></path>
+                    <path data-name="layer2" fill="#b2c1dd" d="M2 32v8h18l-8-8H2zm60 0H52l-8 8h18v-8z"></path>
+                    <path data-name="layer1"
+                      d="M16 48v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-4.2a3.4 3.4 0 0 0 1.2.2zm44-.2V52a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2v-4h11a3.1 3.1 0 0 0 1-.2z"
+                      fill="#6c8abe"></path>
+                    <path data-name="opacity" fill="#fff" opacity=".5"
+                      d="M41.7 24h7.7l3.6-3.6-3.1-4.6-8.2 8.2zM31.4 10l-14 14h12.3l14.1-14H31.4z"></path>
+                    <path data-name="opacity" fill="#000064" opacity=".15"
+                      d="M13 32l-5-8-6 6v2h10l8 8h24l3.1-3.1h-29L13 32z"></path>
+                    <path data-name="opacity" fill="#000064" opacity=".15" d="M2 32h9v8H2z"></path>
+                    <path data-name="opacity" fill="#fff" opacity=".2" d="M62 30l-6-6H8l2.5 4H54l-2 4h10v-2z"></path>
+                    <path data-name="opacity"
+                      d="M5.2 48a3.4 3.4 0 0 1-1.2-.2V51h12v-3zM59 48H48v3h12v-3.2a3.1 3.1 0 0 1-1 .2z" fill="#000064"
+                      opacity=".2"></path>
+                    <path data-name="opacity" d="M2 45a3 3 0 0 0 3 3h54a3 3 0 0 0 3-3H7v-5H2z" fill="#000064"
+                      opacity=".15"></path>
+                    <path data-name="stroke"
+                      d="M16 48v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-4.2m56 0V52a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2v-4M24 34h16"
+                      fill="none" stroke="#2e4369" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3">
+                    </path>
+                    <path data-name="stroke"
+                      d="M54 22l-8-12H18l-8 12-8 8v15a3 3 0 0 0 3 3h54a3 3 0 0 0 3-3V30zM8.2 24H56M2 40h60M2 22h8m44 0h8"
+                      fill="none" stroke="#2e4369" stroke-linecap="butt" stroke-linejoin="round" stroke-width="3">
+                    </path>
+                    <path data-name="stroke" fill="none" stroke="#2e4369" stroke-linecap="butt" stroke-linejoin="round"
+                      stroke-width="3" d="M2 32h10l8 8m42-8H52l-8 8"></path>
+                  </svg>
+                  Permis de conduire <a href="#">B</a>
                 </div>
+              </div>
             </div>
-        </section>
+          
 
-        <section id="experience" class="experience-section cadre mb-30 clearfix">
-            <div class="section-titre">
-                <h2>
-                    <i class="fa fa-pencil-alt" aria-hidden="true"></i>
-                    Expérience                </h2>
-                <p></p>
-            </div>
-            <div class="row">
-                <div class="col-12 col-lg-12 col-md-12 col-sm-12">
-                    <div class="experience">
-                        <div class="experience-item-area">
-                            <div class="border-left">
-                                <div class="experience-item exp1">
-                                    <h2 class="titre">Développeur Web à Hexatio</h2>
-                                    <ul class="post-mate ul-li">
-                                        <li class="blue-color">Juin 2018  - <span class="current blue-bg">Aujourd'hui</span></li>
-                                    </ul>
-                                    <p>- Création du site web hexatio.fr<br/>- Développement d'application Web Angular</p>
-                                    <a href="http://hexatio.fr" target="_blank" class="blue-color">http://hexatio.fr</a>
-                                    <ul class="tabs skills-tab ul-li">
-                                        <li class="tab tag-item tag-icon">
-                                            <i class="fa fa-tags" aria-hidden="true"></i>
-                                        </li>
-                                        <li class="tab tag-item"><a class="tag">#angular5</a></li>
-                                        <li class="tab tag-item"><a class="tag">#primeng</a></li>
-                                        <li class="tab tag-item"><a class="tag">#php5</a></li>
-                                        <li class="tab tag-item"><a class="tag">#html5</a></li>
-                                        <li class="tab tag-item"><a class="tag">#css3</a></li>
-                                        <li class="tab tag-item"><a class="tag">#jquery</a></li>
-                                    </ul>
-                                </div>
-                                <div class="experience-item exp2">
-                                    <h2 class="titre">Développeur Web à 2GT - Netgolf</h2>
-                                    <ul class="post-mate ul-li">
-                                        <li class="green-color">Octobre 2014 à septembre 2017</li>
-                                    </ul>
-                                    <p>- Correction et maintenance évolutive du logiciel NetGolf<br/> - Création du site web netgolf.fr<br/> - Support technique<br/></p>
-                                    <a href="http://netgolf.fr" target='_blank' class="green-color">http://netgolf.fr</a>
-                                    <ul class="tabs skills-tab ul-li">
-                                        <li class="tab tag-item tag-icon">
-                                            <i class="fa fa-tags" aria-hidden="true"></i>
-                                        </li>
-                                        <li class="tab tag-item"><a class="tag">#php5</a></li>
-                                        <li class="tab tag-item"><a class="tag">#html5</a></li>
-                                        <li class="tab tag-item"><a class="tag">#css3</a></li>
-                                        <li class="tab tag-item"><a class="tag">#jquery</a></li>
-                                    </ul>
-                                </div>
-                                <div class="experience-item exp3">
-                                    <h2 class="titre">Développeur Junior à 2GT - Netgolf</h2>
-                                    <ul class="post-mate ul-li">
-                                        <li class="red-color">Mars 2014 à septembre 2014</li>
-                                    </ul>
-                                    <p>- Correction et maintenance évolutive du logiciel NetGolf<br/> - Support technique</p>
-                                    <ul class="tabs skills-tab ul-li">
-                                        <li class="tab tag-item tag-icon">
-                                            <i class="fa fa-tags" aria-hidden="true"></i>
-                                        </li>
-                                        <li class="tab tag-item"><a class="tag">#php5</a></li>
-                                        <li class="tab tag-item"><a class="tag">#html5</a></li>
-                                        <li class="tab tag-item"><a class="tag">#css3</a></li>
-                                        <li class="tab tag-item"><a class="tag">#jquery</a></li>
-                                    </ul>
-                                </div>
-                                <div class="experience-item exp1">
-                                    <h2 class="titre">Projet BTS IRIS - ORT Lyon</h2>
-                                    <ul class="post-mate ul-li">
-                                        <li class="photoshop-color">Janvier 2013 à juin 2013</li>
-                                    </ul>
-                                    <p>- Développement d'une application de supervision Android en Java Android 2.3</p>
-                                    <ul class="tabs skills-tab ul-li">
-                                        <li class="tab tag-item tag-icon">
-                                            <i class="fa fa-tags" aria-hidden="true"></i>
-                                        </li>
-                                        <li class="tab tag-item"><a class="tag">#android2</a></li>
-                                    </ul>
-                                </div>
-                                <div class="experience-item exp2">
-                                    <h2 class="titre">Développeur web - WeLoveSaaS.com</h2>
-                                    <ul class="post-mate ul-li">
-                                        <li class="green-color">Mai 2012 à juillet 2012</li>
-                                    </ul>
-                                    <p>- Conception et mise en place du site vitrine et de l’espace membre<br/>- Création d’un widget en php/jquery pour récupérer et afficher des informations à la fin d’un article Wordpress</p>
-                                    <ul class="tabs skills-tab ul-li">
-                                        <li class="tab tag-item tag-icon">
-                                            <i class="fa fa-tags" aria-hidden="true"></i>
-                                        </li>
-                                        <li class="tab tag-item"><a class="tag">#wordpress</a></li>
-                                        <li class="tab tag-item"><a class="tag">#php5</a></li>
-                                        <li class="tab tag-item"><a class="tag">#html5</a></li>
-                                        <li class="tab tag-item"><a class="tag">#css3</a></li>
-                                        <li class="tab tag-item"><a class="tag">#jquery</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="loisirs" class="portfolio-section cadre mb-30 clearfix">
-            <div class="section-titre">
-                <h2>
-                    <i class="fa fa-briefcase" aria-hidden="true"></i>
-                    Loisirs                </h2>
-                <p></p>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4 no-padding">
-                        <div class="portfolio-content loisir-content">
-                            <figure>
-                                <img src="public/img/loisirs_photo.png" alt="Photographie" class="img-fluid">
-                            </figure>
-                            <div class="entry-content flex flex-column align-items-center justify-content-center align-middle">
-                                <h2 class="titre"><i class="fas fa-camera"></i></h2>
-                                <hr>
-                                <p class="flex flex-wrap justify-content-center">Photographie</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 no-padding">
-                        <div class="portfolio-content loisir-content">
-                            <figure>
-                                <img src="public/img/loisirs_livre.png" alt="Livre" class="img-fluid">
-                            </figure>
-                            <div class="entry-content flex flex-column align-items-center justify-content-center align-middle">
-                                <h2 class="titre"><i class="fas fa-book-open"></i></h2>
-                                <hr>
-                                <p class="flex flex-wrap justify-content-center">Lecture (romans, mangas,...)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 no-padding">
-                        <div class="portfolio-content loisir-content">
-                            <figure>
-                                <img src="public/img/loisirs_game.png" alt="Jeux vidéo" class="img-fluid">
-                            </figure>
-                            <div class="entry-content flex flex-column align-items-center justify-content-center align-middle">
-                                <h2 class="titre"><i class="fas fa-gamepad"></i></h2>
-                                <hr>
-                                <p class="flex flex-wrap justify-content-center">Jeux vidéo</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 no-padding">
-                        <div class="portfolio-content loisir-content">
-                            <figure>
-                                <img src="public/img/loisirs_3dprint.png" alt="Impression 3D" class="img-fluid">
-                            </figure>
-                            <div class="entry-content flex flex-column align-items-center justify-content-center align-middle">
-                                <h2 class="titre"><i class="fas fa-cube"></i></h2>
-                                <hr>
-                                <p class="flex flex-wrap justify-content-center">Impression 3D</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 no-padding">
-                        <div class="portfolio-content loisir-content">
-                            <figure>
-                                <img src="public/img/loisirs_film.png" alt="Film" class="img-fluid">
-                            </figure>
-                            <div class="entry-content flex flex-column align-items-center justify-content-center align-middle">
-                                <h2 class="titre"><i class="fas fa-film"></i></h2>
-                                <hr>
-                                <p class="flex flex-wrap justify-content-center">Film</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-        </section>
-
-        <section id="contact" class="contact-section cadre mb-30 clearfix">
-            <div class="section-titre">
-                <h2>
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    Contact                </h2>
-                <p></p>
-            </div>
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <div class="contact-right clearfix">
-                        <form class="contact-form validate-form" id="form_contact">
-                            <h2 class="titre mb-30">Contacter moi</h2>
-                            <div class="wrap-contact-input validate-input input-field">
-                                <input class="contact-input" name="name" type="text" id="name">
-                                <span class="focus-contact-input" data-placeholder="NOM"></span>
-                            </div>
-                            <div class="wrap-contact-input validate-input input-field">
-                                <input class="contact-input" name="email" type="text" id="email">
-                                <span class="focus-contact-input" data-placeholder="E-MAIL"></span>
-                            </div>
-                            <div class="wrap-contact-input validate-input input-field">
-                                <textarea class="contact-input" id="message" name="message" rows="3"></textarea>
-                                <span class="focus-contact-input" data-placeholder="MESSAGE"></span>
-                            </div>
-                            <button type="submit" class="submitForm custom-btn-lg"><i class="fa fa-envelope" aria-hidden="true"></i>Envoyer</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer id="footer-section" class="footer-section clearfix">
-            <p>©2018 Yoann Beaugrand</p>
-            <div class="backtotop">
-                <a href="#section-header" class="scroll">
-                    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+          </div>
+          <div class="timeline-right">
+            <div class="status box">
+              <div class="status-menu">
+                <div class="status-menu-item active" href="#">Status</div>
+                <div class="status-menu-item" href="#">Photos</div>
+                <div class="status-menu-item" href="#">Videos</div>
+              </div>
+              <div class="status-main">
+                <img src="./ressources/photoprofil.jpg" class="status-img">
+                <textarea class="status-textarea" placeholder="Ecrivez quelque chose à Ayoub Bayed.."></textarea>
+              </div>
+              <div class="status-actions">
+                <a href="#" class="status-action">
+                  <svg viewBox="-42 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M333.7 123.3c0 33.9-12.2 63.2-36.2 87.2-24 24-53.3 36.1-87.1 36.1h-.1c-33.9 0-63.2-12.1-87.1-36.1-24-24-36.2-53.3-36.2-87.2 0-33.9 12.2-63.2 36.2-87.2 24-24 53.2-36 87-36.1h.2c33.8 0 63.2 12.2 87.1 36.1 24 24 36.2 53.3 36.2 87.2zm0 0"
+                      fill="#ffbb85" />
+                    <path
+                      d="M427.2 424c0 26.7-8.5 48.3-25.3 64.3-16.5 15.7-38.4 23.7-65 23.7H90.2c-26.6 0-48.5-8-65-23.7C8.5 472.3 0 450.7 0 423.9c0-10.2.3-20.4 1-30.2a302.7 302.7 0 0112.1-64.9c3.3-10.3 7.8-20.5 13.4-30.3 5.8-10.2 12.5-19 20.1-26.3a89 89 0 0129-18.2c11.2-4.4 23.7-6.7 37-6.7 5.2 0 10.3 2.2 20 8.5l21 13.5c6.6 4.3 15.7 8.3 27 11.9a107.7 107.7 0 0033 5.3c11 0 22-1.8 33-5.3 11.2-3.6 20.3-7.6 27-12l21-13.4c9.7-6.3 14.7-8.5 20-8.5 13.3 0 25.7 2.3 37 6.7a89 89 0 0128.9 18.2c7.6 7.3 14.4 16.1 20.2 26.3 5.5 9.8 10 20 13.3 30.3a305.5 305.5 0 0112.1 64.9c.7 9.8 1 20 1 30.2zm0 0"
+                      fill="#6aa9ff" />
+                    <path
+                      d="M210.4 246.6h-.1V0c34 0 63.3 12.2 87.2 36.1 24 24 36.2 53.3 36.2 87.2 0 33.9-12.2 63.2-36.2 87.2-24 24-53.3 36.1-87.1 36.1zm0 0"
+                      fill="#f5a86c" />
+                    <path
+                      d="M427.2 424c0 26.7-8.5 48.3-25.3 64.3-16.5 15.7-38.4 23.7-65 23.7H210.2V286.5h3.3c11 0 22-1.8 33-5.3 11.2-3.6 20.3-7.6 27-12l21-13.4c9.7-6.3 14.7-8.5 20-8.5 13.3 0 25.7 2.3 37 6.7a89 89 0 0128.9 18.2c7.6 7.3 14.4 16.1 20.2 26.3 5.5 9.8 10 20 13.3 30.3a305.5 305.5 0 0112.1 64.9c.7 9.8 1 20 1 30.2zm0 0"
+                      fill="#2682ff" />
+                  </svg>
+                  People
                 </a>
+                <a href="#" class="status-action">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path
+                      d="M87.084 192c-.456-5.272-.688-10.6-.688-16C86.404 78.8 162.34 0 256.004 0s169.6 78.8 169.6 176c0 5.392-.232 10.728-.688 16h.688c0 96.184-169.6 320-169.6 320s-169.6-223.288-169.6-320h.68zm168.92 32c36.392 1.024 66.744-27.608 67.84-64-1.096-36.392-31.448-65.024-67.84-64-36.392-1.024-66.744 27.608-67.84 64 1.096 36.392 31.448 65.024 67.84 64z"
+                      fill="#e21b1b" />
+                  </svg>
+                  Check in
+                </a>
+                <a href="#" class="status-action">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <circle cx="256" cy="256" r="256" fill="#ffca28" />
+                    <g fill="#6d4c41">
+                      <path
+                        d="M399.68 208.32c-8.832 0-16-7.168-16-16 0-17.632-14.336-32-32-32s-32 14.368-32 32c0 8.832-7.168 16-16 16s-16-7.168-16-16c0-35.296 28.704-64 64-64s64 28.704 64 64c0 8.864-7.168 16-16 16zM207.68 208.32c-8.832 0-16-7.168-16-16 0-17.632-14.368-32-32-32s-32 14.368-32 32c0 8.832-7.168 16-16 16s-16-7.168-16-16c0-35.296 28.704-64 64-64s64 28.704 64 64c0 8.864-7.168 16-16 16z" />
+                    </g>
+                    <path
+                      d="M437.696 294.688c-3.04-4-7.744-6.368-12.736-6.368H86.4c-5.024 0-9.728 2.336-12.736 6.336-3.072 4.032-4.032 9.184-2.688 14.016C94.112 390.88 170.08 448.32 255.648 448.32s161.536-57.44 184.672-139.648c1.376-4.832.416-9.984-2.624-13.984z"
+                      fill="#fafafa" />
+                  </svg>
+                  Mood
+                </a>
+                <button class="status-share">Share</button>
+              </div>
             </div>
-        </footer>
-    </body>  
+            
+          </div>
+          </div>
+          
+        <div class="album box" id="languages">
+              <div class="status-main">
+                <img src="ressources/photoprofil.jpg" class="status-img" />
+                <div class="album-detail">
+                  <div class="album-title"><strong>Ayoub Bayed</strong> à créer un nouveau <span>post</span></div>
+                  <div class="album-date">15 years ago</div>
+                </div>
+                <button class="intro-menu"></button>
+              </div>
+              <div class="album-content"><strong>NIVEAU DE LANGUES</strong>
+                <div class="album-photos">
+                  <p><strong><u>Arabe</u></strong>: Langue maternelle <br><br>
+                  
+                  <strong><u>Français</u></strong>: Maîtrise parfaite<br><br>
+                  <strong><u>Anglais</u></strong>: Niveau intermédiaire<br><br>
+                  <strong><u>Espagnol</u></strong>: Notions </p>
+                </div>
+              </div>
+              <div class="album-actions">
+                <a href="#" class="album-action">
+                  <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+                  </svg>
+                  250
+                </a>
+                <a href="#" class="album-action">
+                  <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    class="css-i6dzq1" viewBox="0 0 24 24">
+                    <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
+                  </svg>
+                  17
+                </a>
+                <a href="#" class="album-action">
+                  <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    class="css-i6dzq1" viewBox="0 0 24 24">
+                    <path d="M17 1l4 4-4 4" />
+                    <path d="M3 11V9a4 4 0 014-4h14M7 23l-4-4 4-4" />
+                    <path d="M21 13v2a4 4 0 01-4 4H3" />
+                  </svg>
+                  22
+                </a>
+              </div>
+            </div>
+             <div class="album box" id="competences">
+              <div class="status-main">
+                <img src="ressources/photoprofil.jpg" class="status-img" />
+                <div class="album-detail">
+                  <div class="album-title"><strong>Ayoub Bayed</strong> à créer un nouveau <span>post</span></div>
+                  <div class="album-date">22 years ago</div>
+                </div>
+                <button class="intro-menu"></button>
+              </div>
+              <div class="album-content"><strong>DOMAINE DE COMPETENCES</strong>
+                <div class="album-photos">
+                  <p>
+                   • HTML, CSS, SQL, MariaDB <br>
+                   • Frameworks (Angular, React, VueJs, jquery, materialize, bootstrap, w3) <br>
+                   • Node.js, Jenkins, Docker  <br>
+                   • JAVA, PHP, JAVASCRIPT <br>
+                   • Flutter <br>
+                   • C, C++ <br>
+                   • Github, Gitlab <br>
+                   • Administration du réseau et des systèmes <br>
+                   • Gantt (Gestion de projet) <br>
+                     </p>
+                </div>
+              </div>
+              <div class="album-actions">
+                <a href="#" class="album-action">
+                  <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+                  </svg>
+                  359
+                </a>
+                <a href="#" class="album-action">
+                  <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    class="css-i6dzq1" viewBox="0 0 24 24">
+                    <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
+                  </svg>
+                  16
+                </a>
+                <a href="#" class="album-action">
+                  <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    class="css-i6dzq1" viewBox="0 0 24 24">
+                    <path d="M17 1l4 4-4 4" />
+                    <path d="M3 11V9a4 4 0 014-4h14M7 23l-4-4 4-4" />
+                    <path d="M21 13v2a4 4 0 01-4 4H3" />
+                  </svg>
+                  10
+                </a>
+              </div>
+            </div>
+            <div class="album box" id="formations">
+              <div class="status-main">
+                <img src="ressources/photoprofil.jpg" class="status-img" />
+                <div class="album-detail">
+                  <div class="album-title"><strong>Ayoub Bayed</strong> à créer un nouveau <span>post</span></div>
+                  <div class="album-date">22 years ago</div>
+                </div>
+                <button class="intro-menu"></button>
+              </div>
+              <div class="album-content"><strong>FORMATIONS ACADEMIQUES ET
+                DIPLOMES</strong>
+                <div class="album-photos">
+                  <p><strong><u>2020-2023</u></strong> : Préparation du diplôme "Développeur web et mobile"
+                  <br><br>
+
+                   <strong><u>2017</u></strong> : Lauréat de l’Ecole Nationale de Commerce et de Gestion
+                      (ENCG) - Kénitra -
+                     <br> (Master 2
+                      :"Audit et Contrôle de Gestion"). Ecole à accès sur concours (MAROC) <br><br>
+
+                  <strong><u>2010</u></strong> : Baccalauréat (Option Science de la Vie et de la Terre)</p>
+                </div>
+              </div>
+              <div class="album-actions">
+                <a href="#" class="album-action">
+                  <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+                  </svg>
+                  171
+                </a>
+                <a href="#" class="album-action">
+                  <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    class="css-i6dzq1" viewBox="0 0 24 24">
+                    <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
+                  </svg>
+                  59
+                </a>
+                <a href="#" class="album-action">
+                  <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    class="css-i6dzq1" viewBox="0 0 24 24">
+                    <path d="M17 1l4 4-4 4" />
+                    <path d="M3 11V9a4 4 0 014-4h14M7 23l-4-4 4-4" />
+                    <path d="M21 13v2a4 4 0 01-4 4H3" />
+                  </svg>
+                  49
+                </a>
+              </div>
+            </div>
+            <div class="album box" id="professional1">
+              <div class="status-main">
+                <img src="ressources/photoprofil.jpg" class="status-img" />
+                <div class="album-detail">
+                  <div class="album-title"><strong>Ayoub Bayed</strong> à créer un nouveau <span>post</span></div>
+                  <div class="album-date">22 years ago</div>
+                </div>
+                <button class="intro-menu"></button>
+              </div>
+              <div class="album-content"><strong>EXPERIENCES
+                PROFESSIONNELLES</strong>
+                <div class="album-photos info-item">
+                  
+                  <p><strong><u>Janvier 2021 – Aujourd’hui</u></strong> : Stagiaire en tant qu'ingénieur développement <a>@Code42</a><br><br>
+                  
+                    ➢ Formation autour de l'ERP Dolibarr avec la prise en main de sa gestion de modules<br>
+
+                  ➢ Réalisation dans le cadre d'un développement en interne, un Tutorial grâce à IntroJs pour permettre la mise en place de tutoriels pour les modules déployés pour les clients<br>
+                  ➢ Familiarisation avec PHP, JS, API<br>
+                  ➢ Participation à la création de différentes classes pour la gestion de modules<br>
+                  ➢ Participation à l'architecture d'application web 
+
+                  
+                  </p>
+                </div>
+              </div>
+              <div class="album-actions">
+                <a href="#" class="album-action">
+                  <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+                  </svg>
+                  87
+                </a>
+                <a href="#" class="album-action">
+                  <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    class="css-i6dzq1" viewBox="0 0 24 24">
+                    <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
+                  </svg>
+                  20
+                </a>
+                <a href="#" class="album-action">
+                  <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    class="css-i6dzq1" viewBox="0 0 24 24">
+                    <path d="M17 1l4 4-4 4" />
+                    <path d="M3 11V9a4 4 0 014-4h14M7 23l-4-4 4-4" />
+                    <path d="M21 13v2a4 4 0 01-4 4H3" />
+                  </svg>
+                  13
+                </a>
+              </div>
+            </div>
+            <div class="album box" id="professional7">
+              <div class="status-main">
+                <img src="ressources/photoprofil.jpg" class="status-img" />
+                <div class="album-detail">
+                  <div class="album-title"><strong>Ayoub Bayed</strong> à créer un nouveau <span>post</span></div>
+                  <div class="album-date">22 years ago</div>
+                </div>
+                <button class="intro-menu"></button>
+              </div>
+              <div class="album-content"><strong><u>2020 – Aujourd’hui</u></strong> : Pré-Msc au Sein d’Epitech-Nantes
+                <div class="album-photos">
+                  ➢ 3 mois intensif d'apprentissage de divers languages informatiques<br>
+
+                  ➢ Réalisation de plusieurs tâches et de plusieurs projets de création d'application web et mobile en
+                      HTML,
+                      CSS, PHP, JS, NODE.JS, API, SQL, Frameworks (jquery,materialize, angular...)<br>
+                  ➢ Réalisation d'un projet de Dashboard en Backend Java et front en ViewJs<br>
+                  ➢ Réalisation d'un projet d'IRC en Backend MariaDB et front en React<br>
+                  ➢ Réalisation d'un projet d'application mobile en flutter
+
+                
+                
+                </div>
+              </div>
+            </div>
+            <div class="album box" id="professional2">
+              <div class="status-main">
+                <img src="ressources/photoprofil.jpg" class="status-img" />
+                <div class="album-detail">
+                  <div class="album-title"><strong>Ayoub Bayed</strong> à créer un nouveau <span>post</span></div>
+                  <div class="album-date">22 years ago</div>
+                </div>
+                <button class="intro-menu"></button>
+              </div>
+              <div class="album-content"><strong><u>Août 2018 – Décembre 2019</u></strong> : Chargé de clientèle au sein d’Amazon
+                Maroc
+                <div class="album-photos">
+                  
+                    ➢ Gestion des commandes clients : Retard de livraison, article défectueux, article endommagé<br><br>
+                  
+                   ➢ Corrélation avec les transporteurs concernant les colis non acheminés<br>
+                </div>
+              </div>
+            </div>
+            <div class="album box" id="professional3">
+              <div class="status-main">
+                <img src="ressources/photoprofil.jpg" class="status-img" />
+                <div class="album-detail">
+                  <div class="album-title"><strong>Ayoub Bayed</strong> à créer un nouveau <span>post</span></div>
+                  <div class="album-date">22 years ago</div>
+                </div>
+                <button class="intro-menu"></button>
+              </div>
+              <div class="album-content"><strong><u>Juin 2017- Décembre 2018</u></strong> : Entrepreneur dans le commerce en ligne
+                <div class="album-photos">           
+                    ➢ Gestion des aspects financiers, marketing ainsi que les aspects
+                        administratifs relatif aux entrepreneurs au Maroc<br><br>
+                     ➢ Création et lancement d’un site de e-commerce dédié à la vente des
+                        produits de décoration d’intérieur<br>
+                </div>
+              </div>
+            </div>
+            <div class="album box" id="professional4">
+              <div class="status-main">
+                <img src="ressources/photoprofil.jpg" class="status-img" />
+                <div class="album-detail">
+                  <div class="album-title"><strong>Ayoub Bayed</strong> à créer un nouveau <span>post</span></div>
+                  <div class="album-date">22 years ago</div>
+                </div>
+                <button class="intro-menu"></button>
+              </div>
+              <div class="album-content"><strong><u>Février - Juin 2017</u></strong> : Stage de fin d’études effectué au sein de
+                PriceWaterhouse (Cabinet d’audit et commissariat aux comptes) à Casablanca
+                <div class="album-photos">
+                  ➢ Rapport de fin d’études portant sur : « Cycle achats-fournisseurs : identification
+                  des
+                  risques et mesures correctives »<br>
+               ➢ Audit des sections : Immobilisations, Achats-Fournisseurs, Ventes-Clients et
+                  Trésorerie<br>
+              
+               ➢Rédaction de notes de synthèse – Pointage des liasses comptables<br>
+               ➢ Actualisation des rapports spéciaux<br>
+               ➢ Formalisation des dossiers : Physiques, permanents et de synthèses
+          
+                </div>
+              </div>
+            </div>
+            <div class="album box" id="professional5">
+              <div class="status-main">
+                <img src="ressources/photoprofil.jpg" class="status-img" />
+                <div class="album-detail">
+                  <div class="album-title"><strong>Ayoub Bayed</strong> à créer un nouveau <span>post</span></div>
+                  <div class="album-date">22 years ago</div>
+                </div>
+                <button class="intro-menu"></button>
+              </div>
+              <div class="album-content"><strong><u>Juillet 2015</u></strong> : Stage effectué au sein de Proximo Expertise (Cabinet
+                d’expertise et
+                commissariat aux comptes) à
+                Rabat
+                <div class="album-photos">
+                  ➢ Comptabilisation des factures – Déclaration de la TVA- Rapprochement bancaire
+                </div>
+              </div>
+            </div>
+            <div class="album box" id="professional6">
+              <div class="status-main">
+                <img src="ressources/photoprofil.jpg" class="status-img" />
+                <div class="album-detail">
+                  <div class="album-title"><strong>Ayoub Bayed</strong> à créer un nouveau <span>post</span></div>
+                  <div class="album-date">22 years ago</div>
+                </div>
+                <button class="intro-menu"></button>
+              </div>
+              <div class="album-content"><strong><u>Juillet 2013</u></strong> : Stage effectué au sein de CGI Capital Real Estate
+                (Filiale
+                de CDG
+                développement)
+                à
+                Rabat</p>
+                <div class="album-photos">
+                  ➢ Réalisation des états analytiques et élaboration des tableaux de bord
+                </div>
+              </div>
+            </div>
+       
+        
+      </div>
+    </div>
+    <div class="right-side" :class="{ 'active': rightSide }">
+      <div class="account">
+        <button class="account-button">
+          <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+            class="css-i6dzq1" viewBox="0 0 24 24">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+            <path d="M22 6l-10 7L2 6" />
+          </svg>
+        </button>
+        <button class="account-button">
+          <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+            class="css-i6dzq1" viewBox="0 0 24 24">
+            <path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9M13.73 21a2 2 0 01-3.46 0" />
+          </svg>
+        </button>
+        <span class="account-user">Ayoub Bayed
+          <img src="./ressources/photoprofil.jpg" alt="" class="account-profile" alt="">
+          <span>▼</span>
+        </span>
+      </div>
+      <div class="side-wrapper stories">
+        <div class="side-title">STORIES</div>
+        <div class="user">
+          <img src="https://d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/edit/ne/2017/01/MariaDB_610.png" alt=""
+            class="user-img">
+          <div class="username">MariaDb
+            <div class="album-date">12 hours ago</div>
+          </div>
+        </div>
+        <div class="user">
+          <img src="https://cdn.alsacreations.net/xmedia/doc/full/php-logo.png" alt="" class="user-img">
+          <div class="username">Php
+            <div class="album-date">29 minutes ago</div>
+          </div>
+        </div>
+        <div class="user">
+          <img
+            src="data:image/png;base64,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"
+            alt="" class="user-img">
+          <div class="username">Javascript
+            <div class="album-date">3 hours ago</div>
+          </div>
+        </div>
+        <div class="user">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"
+            alt="" class="user-img">
+          <div class="username">NodeJs
+            <div class="album-date">18 hours ago</div>
+          </div>
+        </div>
+      </div>
+      <div class="side-wrapper contacts">
+        <div class="side-title">CONTACTS</div>
+        <div class="user">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
+            class="user-img">
+          <div class="username">React
+            <div class="user-status"></div>
+          </div>
+        </div>
+        <div class="user">
+          <img
+            src="data:image/png;base64,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"
+            class="user-img">
+          <div class="username">Apache
+            <div class="user-status"></div>
+          </div>
+        </div>
+        <div class="user">
+          <img
+            src="https://img2.freepng.fr/20180326/eye/kisspng-github-computer-icons-logo-github-5ab8a338143da0.8375508315220498480829.jpg"
+            class="user-img">
+          <div class="username">Github
+            <div class="user-status offline"></div>
+          </div>
+        </div>
+        <div class="user">
+          <img
+            src="https://w7.pngwing.com/pngs/855/603/png-transparent-cascading-style-sheets-learning-android-text-logo-css-thumbnail.png"
+            class="user-img">
+          <div class="username">Css
+            <div class="user-status offline"></div>
+          </div>
+        </div>
+        <div class="user">
+          <img
+            src="https://e7.pngegg.com/pngimages/841/331/png-clipart-mysql-database-phpmyadmin-postgresql-innodb-mysql-orange-logo.png"
+            class="user-img">
+          <div class="username">Mysql
+            <div class="user-status"></div>
+          </div>
+        </div>
+        <div class="user">
+          <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" class="user-img">
+          <div class="username">Html
+            <div class="user-status"></div>
+          </div>
+        </div>
+        <div class="user">
+          <img
+            src="https://e7.pngegg.com/pngimages/759/987/png-clipart-php-computer-icons-web-development-logo-icon-text-trademark.png"
+            class="user-img">
+          <div class="username">Php
+            <div class="user-status"></div>
+          </div>
+        </div>
+        <div class="user">
+          <img src="https://www.neappoli.com/static/media/flutterImg.94b8139a.png" class="user-img">
+          <div class="username">Flutter
+            <div class="user-status"></div>
+          </div>
+        </div>
+        <div class="user">
+          <img
+            src="data:image/png;base64,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"
+            class="user-img">
+          <div class="username">Javascript
+            <div class="user-status idle"></div>
+          </div>
+        </div>
+        <div class="user">
+          <img
+            src="https://img2.freepng.fr/20180422/gje/kisspng-java-servlet-computer-icons-programming-language-java-5adce132e29be1.3147376615244250109282.jpg"
+            alt="" class="user-img">
+          <div class="username">Java
+            <div class="user-status idle"></div>
+          </div>
+        </div>
+      </div>
+      <div class="search-bar right-search">
+        <input type="text" placeholder="Rechercher" />
+        <div class="search-bar-svgs">
+          <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+            class="css-i6dzq1" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="3" />
+            <path
+              d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z" />
+          </svg>
+          <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 469.34 469.34">
+            <path
+              d="M456.84 76.17l-64-64.06c-16.13-16.13-44.18-16.17-60.37.04L45.77 301.67a10.73 10.73 0 00-2.7 4.59L.41 455.73a10.68 10.68 0 0013.19 13.2l149.33-42.7c1.73-.5 3.3-1.42 4.58-2.7l289.33-286.98c8.06-8.07 12.5-18.78 12.5-30.19s-4.44-22.12-12.5-30.2zM285.99 89.74L325.25 129l-205 205-14.7-29.44a10.67 10.67 0 00-9.55-5.9H78.92L286 89.75zM26.2 443.14l13.9-48.64 34.74 34.74-48.64 13.9zm123.14-35.18L98.3 422.54l-51.5-51.5L61.38 320H89.4l18.38 36.77a10.67 10.67 0 004.77 4.77l36.78 18.39v28.03zm21.33-17.54v-17.09c0-4.04-2.28-7.72-5.9-9.54l-29.43-14.7 205-205 39.26 39.26-208.93 207.07zm271.11-268.7l-47.03 46.61L301 74.6l46.59-47c8.06-8.07 22.1-8.07 30.16 0l64 64c4.03 4.03 6.25 9.38 6.25 15.08s-2.22 11.05-6.22 15.05z" />
+          </svg>
+          <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+            viewBox="0 0 24 24">
+            <path d="M12 5v14M5 12h14" />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="overlay" @click="rightSide = false; leftSide = false" :class="{ 'active': rightSide || leftSide }">
+    </div>
+  </div>
+</body>
+
 </html>
