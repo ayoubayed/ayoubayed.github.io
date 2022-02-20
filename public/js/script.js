@@ -18,8 +18,8 @@ $(document).ready(function() {
     $("#Compétences").click(function() {
         $(this).addClass("active");
         $("#Formations,#Journal,#Langues").removeClass("active");
-        $("#competences").show();
-        $("#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#timeline,#languages,#formations").hide();
+        $("#competences, #front").show();
+        $("#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#timeline,#languages,#formations,#deploy,#back").hide();
     });
 
     $("#Langues").click(function() {
@@ -27,6 +27,27 @@ $(document).ready(function() {
         $("#Formations,#Journal,#Compétences").removeClass("active");
         $("#languages").show();
         $("#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#timeline,#competences,#formations").hide();
+    });
+
+    $("#backend").click(function() {
+        $(this).addClass("active");
+        $("#frontend, #deployment").removeClass("active");
+        $("#back").show();
+        $("#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#timeline,#formations, #deploy,#front").hide();
+    });
+
+    $("#deployment").click(function() {
+        $(this).addClass("active");
+        $("#frontend, #backend").removeClass("active");
+        $("#deploy").show();
+        $("#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#timeline,#formations, #back,#front").hide();
+    });
+
+    $("#frontend").click(function() {
+        $(this).addClass("active");
+        $("#deploy, #backend").removeClass("active");
+        $("#front").show();
+        $("#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#timeline,#formations, #back,#deploy").hide();
     });
 
 });

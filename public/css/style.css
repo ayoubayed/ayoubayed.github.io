@@ -386,6 +386,31 @@ body {
   border-bottom: 1px solid #1488fa;
 }
 
+.sub-profile-menu {
+  bottom: 0;
+  padding-left: 200px;
+  background: #151728;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0 0 4px 4px;
+}
+
+.sub-profile-menu-link {
+  padding: 20px 16px;
+  color: #5c5e6e;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.sub-profile-menu-link.active, .sub-profile-menu-link:hover {
+  color: #fff;
+  background-color: #1b1d2e;
+  border-bottom: 1px solid #1488fa;
+}
+
 .profile-avatar {
   position: absolute;
   -webkit-box-align: center;
@@ -654,8 +679,45 @@ body {
   .status-menu-item + .status-menu-item {
     margin-left: 0;
   }
+
+  .profile-menu-link {
+    
+    color: #5c5e6e;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .sub-profile-menu-link {
+    
+    color: #5c5e6e;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+  }
 }
 
+@media screen and (max-width: 740px) {
+  #professional1, 
+  #professional2,
+  #professional3,
+  #professional4,
+  #professional5,
+  #professional6,
+  #professional7,
+  #professional8 {
+    
+    
+      -ms-word-break: break-all;
+      /* This is the dangerous one in WebKit, as it breaks things wherever */
+      word-break: break-all;
+      /* Instead use this non-standard one: */
+      word-break: break-word;
+    
+     
+    
+    }
+}
 .status-img {
   width: 50px;
   height: 50px;
@@ -805,11 +867,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
-  max-height: 30vh;
 }
 
 .album-photos > .album-photo {
-  width: 50%;
+  width: 70%;
 }
 
 .album-right {
@@ -1131,16 +1192,13 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .profile-menu-link {
-    padding: 0px;
-    font-size: 15px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .profile-menu-link:nth-last-child(1),
-  .profile-menu-link:nth-last-child(2) {
-    display: none;
+  .sub-profile-menu {
+    padding-left: 0;
+    width: 100%;
+    overflow: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -1165,3 +1223,136 @@ body {
   background: rgba(255, 255, 255, 0.1);
 }
 /*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width:740px) {
+  .album-photos  {
+  height: fit-content;
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.container-skill-bar{
+  position: relative;
+  width: 700px;
+}
+.container-skill-bar h2{
+  color: #fff;
+}
+.container-skill-bar .skills{
+  position: relative;
+  display: flex;
+  margin: 20px 0;
+  padding: 24px 10px 18px;
+  background: #151728;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #000;
+  transition: 0.5s;
+}
+/* .container-skill-bar:hover .skills{
+  opacity: 0.05;
+}
+.container-skill-bar .skills:hover{
+  opacity: 1;
+  transform: scale(1.1);
+} */
+.container-skill-bar .skills:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(255, 255, 255, .1);
+}
+.container-skill-bar .skills .Name{
+  position: relative;
+  width: 110px;
+  text-align: right;
+  color: #fff;
+  margin-top: -2px;
+  text-transform: uppercase;
+}
+.container-skill-bar .skills .value{
+  position: relative;
+  width: 40px;
+  text-align: left;
+  color: #fff;
+  margin-top: -2px;
+  text-transform: uppercase;
+}
+.container-skill-bar .skills .percent{
+  position: relative;
+  width: calc(100% - 150px);
+  height: 20px;
+  margin: 0 10px;
+  -webkit-border-radius: 20px;
+ -moz-border-radius: 20px;
+ border-radius: 20px;
+  -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+ -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+ box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+  overflow: hidden;
+}
+.container-skill-bar .skills .percent .progress{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: inset 0 0 2px #000;
+  animation: animate 2s ease-in-out forwards;
+}
+@keyframes animate{
+  from{
+    width: 0;
+  }
+}
+
+.container-skill-bar .skills:nth-child(1) .percent .progress{
+  background: linear-gradient(45deg, #8abbd7, #066dab);
+}
+.container-skill-bar .skills:nth-child(2) .percent .progress{
+  background: linear-gradient(45deg, #1fe6ff, #673ab7);
+}
+.container-skill-bar .skills:nth-child(3) .percent .progress{
+  background: linear-gradient(45deg, #3bc0ff, #33ff00);
+}
+.container-skill-bar .skills:nth-child(4) .percent .progress{
+  background: linear-gradient(45deg, #ffee54, #ff00ca);
+}
+.container-skill-bar .skills:nth-child(5) .percent .progress{
+  background: linear-gradient(45deg, #22ffde, #2196f3);
+}
+.container-skill-bar .skills:nth-child(6) .percent .progress{
+  background: linear-gradient(45deg,  #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%);
+}
+.container-skill-bar .skills:nth-child(7) .percent .progress{
+  background: linear-gradient(45deg, #7cbc0a 34%, #7cbc0a 34%, #9dd53a 47%, #a1d54f 50%, #80c217 61%);;
+}
+.container-skill-bar .skills:nth-child(8) .percent .progress{
+  background: linear-gradient(45deg, #22ffde, #2196f3);
+}
+
+
+@media screen and (max-width:610px) {
+  .container-skill-bar{
+
+    width: 360px;
+  }
+}
+@media screen and (max-width:460px) {
+  .container-skill-bar{
+  
+    width: 300px;
+  }
+}
+@media screen and (min-width:610px) and (max-width:800px) {
+  .container-skill-bar{
+  
+    width: 450px;
+  }
+}
