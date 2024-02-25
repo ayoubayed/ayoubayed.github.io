@@ -6,7 +6,7 @@ $(document).ready(function () {
     $("#Journal,#Compétences,#Langues").removeClass("active");
     $("#formations").show();
     $(
-      "#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#professional8,#professional9,#professional10,#timeline,#languages,#competences"
+      "#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#professional8,#professional9,#professional10,#professional11,#timeline,#languages,#competences"
     ).hide();
   });
 
@@ -14,7 +14,7 @@ $(document).ready(function () {
     $(this).addClass("active");
     $("#Formations,#Compétences,#Langues").removeClass("active");
     $(
-      "#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#professional8,#professional9,#professional10,#timeline"
+      "#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#professional8,#professional9,#professional10,#professional11,#professional11,#timeline"
     ).show();
     $("#formations,#competences,#languages").hide();
   });
@@ -24,7 +24,7 @@ $(document).ready(function () {
     $("#Formations,#Journal,#Langues").removeClass("active");
     $("#competences, #front").show();
     $(
-      "#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#professional8,#professional9,#professional10,#timeline,#languages,#formations,#deploy,#back"
+      "#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#professional8,#professional9,#professional10,#professional11,#timeline,#languages,#formations,#deploy,#back"
     ).hide();
   });
 
@@ -33,7 +33,7 @@ $(document).ready(function () {
     $("#Formations,#Journal,#Compétences").removeClass("active");
     $("#languages").show();
     $(
-      "#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#professional8,#professional9,#professional10,#timeline,#competences,#formations"
+      "#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#professional8,#professional9,#professional10,#professional11,#timeline,#competences,#formations"
     ).hide();
   });
 
@@ -42,7 +42,7 @@ $(document).ready(function () {
     $("#frontend, #deployment").removeClass("active");
     $("#back").show();
     $(
-      "#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#professional8,#professional9,#professional10,#timeline,#formations, #deploy,#front"
+      "#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#professional8,#professional9,#professional10,#professional11,#timeline,#formations, #deploy,#front"
     ).hide();
   });
 
@@ -51,7 +51,7 @@ $(document).ready(function () {
     $("#frontend, #backend").removeClass("active");
     $("#deploy").show();
     $(
-      "#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#professional8,#professional9,#professional10,#timeline,#formations, #back,#front"
+      "#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#professional8,#professional9,#professional10,#professional11,#timeline,#formations, #back,#front"
     ).hide();
   });
 
@@ -60,7 +60,7 @@ $(document).ready(function () {
     $("#deploy, #backend").removeClass("active");
     $("#front").show();
     $(
-      "#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#professional8,#professional9,#professional10,#timeline,#formations, #back,#deploy"
+      "#professional1,#professional2,#professional3,#professional4,#professional5,#professional6,#professional7,#professional8,#professional9,#professional10,#professional11,#timeline,#formations, #back,#deploy"
     ).hide();
   });
 });
